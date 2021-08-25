@@ -16,7 +16,7 @@ const Fs = require('fs');
 const ParseYaml = ( yaml ) => {
 	if( typeof yaml === 'string' ) {
 		try {
-			return YAML.safeLoad( yaml, warning => Log.error( warning ) ) || {};
+			return YAML.load( yaml, warning => Log.error( warning ) ) || {};
 		}
 		catch( error ) {
 			console.error(`Rendering yaml caused an error`);

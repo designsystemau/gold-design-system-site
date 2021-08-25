@@ -22,46 +22,46 @@ core:
   contributors:
     - name: Ross Mullen
       img: ross-mullen.png
-      url: 'https://github.com/rossmullen'
+      url: https://github.com/rossmullen
     - name: Prasanth Ponnapalli
       img: prasanth-ponnapalli.png
-      url: 'https://au.linkedin.com/in/prasanth-ponnapalli-a2450018'
+      url: https://au.linkedin.com/in/prasanth-ponnapalli-a2450018
     - name: Monica Gee
       img: monica-gee.jpg
-      url: 'https://au.linkedin.com/in/monicayunagee'
+      url: https://au.linkedin.com/in/monicayunagee
     - name: Ryan Phung
       img: ryan-phung.jpg
-      url: 'https://www.linkedin.com/in/ryan-phung-162a8a17b/'
+      url: https://www.linkedin.com/in/ryan-phung-162a8a17b/
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Alexander Sadleir
       img: alexander-sadleir.jpg
-      url: 'https://github.com/maxious'
+      url: https://github.com/maxious
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
     - name: Hannah J. Nicdao
       img: hannah-j-nicdao.jpg
-      url: 'https://au.linkedin.com/in/hannah-j-nicdao-78318024'
+      url: https://au.linkedin.com/in/hannah-j-nicdao-78318024
     - name: Petra Gulicher
       img: petra-gulicher.jpg
-      url: 'https://github.com/petronbot'
+      url: https://github.com/petronbot
   state: published
   category: core
   order: 0
@@ -98,34 +98,34 @@ accordion:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Simon Schwartz
       img: simon-schwartz.jpg
-      url: 'https://github.com/simonschwartz'
+      url: https://github.com/simonschwartz
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Alexander Sadleir
       img: alexander-sadleir.jpg
-      url: 'https://github.com/maxious'
+      url: https://github.com/maxious
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
     - name: Nathan Davison
       img: nathan-davison.jpg
-      url: 'https://github.com/ndavison'
+      url: https://github.com/ndavison
     - name: Raj Ghuman
       img: raj-ghuman.jpg
-      url: 'https://github.com/sukhrajghuman'
+      url: https://github.com/sukhrajghuman
   state: published
   category: layout
   order: 4
@@ -165,10 +165,10 @@ animate:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Simon Schwartz
       img: simon-schwartz.jpg
-      url: 'https://github.com/simonschwartz'
+      url: https://github.com/simonschwartz
   state: published
   category: content
   order: 9
@@ -204,37 +204,37 @@ body:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Alexander Sadleir
       img: alexander-sadleir.jpg
-      url: 'https://github.com/maxious'
+      url: https://github.com/maxious
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
     - name: Hannah J. Nicdao
       img: hannah-j-nicdao.jpg
-      url: 'https://au.linkedin.com/in/hannah-j-nicdao-78318024'
+      url: https://au.linkedin.com/in/hannah-j-nicdao-78318024
     - name: Petra Gulicher
       img: petra-gulicher.jpg
-      url: 'https://github.com/petronbot'
+      url: https://github.com/petronbot
     - name: Raj Ghuman
       img: raj-ghuman.jpg
-      url: 'https://github.com/sukhrajghuman'
+      url: https://github.com/sukhrajghuman
   state: published
   category: content
   order: 0
@@ -271,34 +271,34 @@ breadcrumbs:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Alexander Sadleir
       img: alexander-sadleir.jpg
-      url: 'https://github.com/maxious'
+      url: https://github.com/maxious
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
     - name: Petra Gulicher
       img: petra-gulicher.jpg
-      url: 'https://github.com/petronbot'
+      url: https://github.com/petronbot
     - name: Hannah J. Nicdao
       img: hannah-j-nicdao.jpg
-      url: 'https://au.linkedin.com/in/hannah-j-nicdao-78318024'
+      url: https://au.linkedin.com/in/hannah-j-nicdao-78318024
   state: published
   category: navigation
   order: 4
@@ -328,37 +328,37 @@ buttons:
   contributors:
     - name: Monica Gee
       img: monica-gee.jpg
-      url: 'https://au.linkedin.com/in/monicayunagee'
+      url: https://au.linkedin.com/in/monicayunagee
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Alexander Sadleir
       img: alexander-sadleir.jpg
-      url: 'https://github.com/maxious'
+      url: https://github.com/maxious
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
     - name: Petra Gulicher
       img: petra-gulicher.jpg
-      url: 'https://github.com/petronbot'
+      url: https://github.com/petronbot
     - name: Hannah J. Nicdao
       img: hannah-j-nicdao.jpg
-      url: 'https://au.linkedin.com/in/hannah-j-nicdao-78318024'
+      url: https://au.linkedin.com/in/hannah-j-nicdao-78318024
   state: published
   category: forms
   order: 3
@@ -412,25 +412,25 @@ cta-link:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
   state: published
   category: content
   order: 5
@@ -467,25 +467,25 @@ callout:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
   state: published
   category: content
   order: 4
@@ -524,34 +524,34 @@ control-input:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
     - name: Alexander Sadleir
       img: alexander-sadleir.jpg
-      url: 'https://github.com/maxious'
+      url: https://github.com/maxious
     - name: Petra Gulicher
       img: petra-gulicher.jpg
-      url: 'https://github.com/petronbot'
+      url: https://github.com/petronbot
     - name: Hannah J. Nicdao
       img: hannah-j-nicdao.jpg
-      url: 'https://au.linkedin.com/in/hannah-j-nicdao-78318024'
+      url: https://au.linkedin.com/in/hannah-j-nicdao-78318024
   state: published
   category: forms
   order: 4
@@ -590,37 +590,37 @@ direction-links:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
     - name: Alexander Sadleir
       img: alexander-sadleir.jpg
-      url: 'https://github.com/maxious'
+      url: https://github.com/maxious
     - name: Petra Gulicher
       img: petra-gulicher.jpg
-      url: 'https://github.com/petronbot'
+      url: https://github.com/petronbot
     - name: Hannah J. Nicdao
       img: hannah-j-nicdao.jpg
-      url: 'https://au.linkedin.com/in/hannah-j-nicdao-78318024'
+      url: https://au.linkedin.com/in/hannah-j-nicdao-78318024
     - name: Kiri Hoy
       img: kiri-hoy.jpg
-      url: 'https://github.com/kirihoy'
+      url: https://github.com/kirihoy
   state: published
   category: navigation
   order: 5
@@ -657,37 +657,37 @@ footer:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
     - name: Alexander Sadleir
       img: alexander-sadleir.jpg
-      url: 'https://github.com/maxious'
+      url: https://github.com/maxious
     - name: Petra Gulicher
       img: petra-gulicher.jpg
-      url: 'https://github.com/petronbot'
+      url: https://github.com/petronbot
     - name: Hannah J. Nicdao
       img: hannah-j-nicdao.jpg
-      url: 'https://au.linkedin.com/in/hannah-j-nicdao-78318024'
+      url: https://au.linkedin.com/in/hannah-j-nicdao-78318024
     - name: Kiri Hoy
       img: kiri-hoy.jpg
-      url: 'https://github.com/kirihoy'
+      url: https://github.com/kirihoy
   state: published
   category: layout
   order: 2
@@ -724,13 +724,13 @@ grid-12:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
   state: published
   category: layout
   order: 0
@@ -768,31 +768,31 @@ header:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
     - name: Petra Gulicher
       img: petra-gulicher.jpg
-      url: 'https://github.com/petronbot'
+      url: https://github.com/petronbot
     - name: Hannah J. Nicdao
       img: hannah-j-nicdao.jpg
-      url: 'https://au.linkedin.com/in/hannah-j-nicdao-78318024'
+      url: https://au.linkedin.com/in/hannah-j-nicdao-78318024
   state: published
   category: layout
   order: 1
@@ -833,25 +833,25 @@ headings:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
   state: published
   category: content
   order: 1
@@ -889,34 +889,34 @@ inpage-nav:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
     - name: Alexander Sadleir
       img: alexander-sadleir.jpg
-      url: 'https://github.com/maxious'
+      url: https://github.com/maxious
     - name: Petra Gulicher
       img: petra-gulicher.jpg
-      url: 'https://github.com/petronbot'
+      url: https://github.com/petronbot
     - name: Hannah J. Nicdao
       img: hannah-j-nicdao.jpg
-      url: 'https://au.linkedin.com/in/hannah-j-nicdao-78318024'
+      url: https://au.linkedin.com/in/hannah-j-nicdao-78318024
   state: published
   category: navigation
   order: 3
@@ -952,34 +952,34 @@ keyword-list:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
     - name: Alexander Sadleir
       img: alexander-sadleir.jpg
-      url: 'https://github.com/maxious'
+      url: https://github.com/maxious
     - name: Petra Gulicher
       img: petra-gulicher.jpg
-      url: 'https://github.com/petronbot'
+      url: https://github.com/petronbot
     - name: Hannah J. Nicdao
       img: hannah-j-nicdao.jpg
-      url: 'https://au.linkedin.com/in/hannah-j-nicdao-78318024'
+      url: https://au.linkedin.com/in/hannah-j-nicdao-78318024
   state: published
   category: content
   order: 6
@@ -1017,34 +1017,34 @@ link-list:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
     - name: Petra Gulicher
       img: petra-gulicher.jpg
-      url: 'https://github.com/petronbot'
+      url: https://github.com/petronbot
     - name: Hannah J. Nicdao
       img: hannah-j-nicdao.jpg
-      url: 'https://au.linkedin.com/in/hannah-j-nicdao-78318024'
+      url: https://au.linkedin.com/in/hannah-j-nicdao-78318024
     - name: Tengis Batsaikhan
       img: tengis-batsaikhan.jpg
-      url: 'https://github.com/tengis'
+      url: https://github.com/tengis
   state: published
   category: navigation
   order: 0
@@ -1084,25 +1084,25 @@ page-alerts:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
   state: published
   category: content
   order: 3
@@ -1143,22 +1143,22 @@ progress-indicator:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Alexander Sadleir
       img: alexander-sadleir.jpg
-      url: 'https://github.com/maxious'
+      url: https://github.com/maxious
   state: published
   category: forms
   order: 5
@@ -1197,25 +1197,25 @@ responsive-media:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
   state: published
   category: content
   order: 7
@@ -1253,22 +1253,22 @@ select:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Simon Schwartz
       img: simon-schwartz.jpg
-      url: 'https://github.com/simonschwartz'
+      url: https://github.com/simonschwartz
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
   state: published
   category: forms
   order: 6
@@ -1307,31 +1307,31 @@ skip-link:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
     - name: Petra Gulicher
       img: petra-gulicher.jpg
-      url: 'https://github.com/petronbot'
+      url: https://github.com/petronbot
     - name: Hannah J. Nicdao
       img: hannah-j-nicdao.jpg
-      url: 'https://au.linkedin.com/in/hannah-j-nicdao-78318024'
+      url: https://au.linkedin.com/in/hannah-j-nicdao-78318024
   state: published
   category: navigation
   order: 6
@@ -1368,34 +1368,34 @@ tags:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
     - name: Alexander Sadleir
       img: alexander-sadleir.jpg
-      url: 'https://github.com/maxious'
+      url: https://github.com/maxious
     - name: Petra Gulicher
       img: petra-gulicher.jpg
-      url: 'https://github.com/petronbot'
+      url: https://github.com/petronbot
     - name: Hannah J. Nicdao
       img: hannah-j-nicdao.jpg
-      url: 'https://au.linkedin.com/in/hannah-j-nicdao-78318024'
+      url: https://au.linkedin.com/in/hannah-j-nicdao-78318024
   state: published
   category: content
   order: 10
@@ -1434,37 +1434,37 @@ text-inputs:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
     - name: Alexander Sadleir
       img: alexander-sadleir.jpg
-      url: 'https://github.com/maxious'
+      url: https://github.com/maxious
     - name: Petra Gulicher
       img: petra-gulicher.jpg
-      url: 'https://github.com/petronbot'
+      url: https://github.com/petronbot
     - name: Hannah J. Nicdao
       img: hannah-j-nicdao.jpg
-      url: 'https://au.linkedin.com/in/hannah-j-nicdao-78318024'
+      url: https://au.linkedin.com/in/hannah-j-nicdao-78318024
     - name: Kiri Hoy
       img: kiri-hoy.jpg
-      url: 'https://github.com/kirihoy'
+      url: https://github.com/kirihoy
   state: published
   category: forms
   order: 1
@@ -1501,25 +1501,25 @@ table:
   contributors:
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Adam Zerella
       img: adam-zerella.jpg
-      url: 'https://github.com/adamzerella'
+      url: https://github.com/adamzerella
     - name: Raj Ghuman
       img: raj-ghuman.jpg
-      url: 'https://github.com/sukhrajghuman'
+      url: https://github.com/sukhrajghuman
   state: published
   category: content
   highlight: new
@@ -1565,16 +1565,16 @@ form:
   contributors:
     - name: Raj Ghuman
       img: raj-ghuman.jpg
-      url: 'https://github.com/sukhrajghuman'
+      url: https://github.com/sukhrajghuman
     - name: Sarah Pulis
       img: sarah-pulis.jpeg
-      url: 'https://github.com/sarahpulis'
+      url: https://github.com/sarahpulis
     - name: Andrew Arch
       img: andrew-arch.jpg
-      url: 'https://github.com/AndrewArch'
+      url: https://github.com/AndrewArch
     - name: Adam Zerella
       img: adam-zerella.jpg
-      url: 'https://github.com/adamzerella'
+      url: https://github.com/adamzerella
   state: published
   category: forms
   highlight: new
@@ -1624,46 +1624,46 @@ main-nav:
   contributors:
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Christopher Lee
       img: christopher-lee.jpg
-      url: 'https://github.com/sirleech'
+      url: https://github.com/sirleech
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
     - name: Petra Gulicher
       img: petra-gulicher.jpg
-      url: 'https://github.com/petronbot'
+      url: https://github.com/petronbot
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Chris Lamb
       img: chris-lamb.jpg
-      url: 'https://github.com/Chris820'
+      url: https://github.com/Chris820
     - name: Alexandra Baranov
       img: alexandra-baranov.jpg
-      url: 'https://au.linkedin.com/in/alexandrabaranov'
+      url: https://au.linkedin.com/in/alexandrabaranov
     - name: DHS Web Services Team
       img: dhs-webservices-team.jpg
-      url: 'https://www.humanservices.gov.au/'
+      url: https://www.humanservices.gov.au/
     - name: Simon Victory
       img: simon-victory.jpg
-      url: 'https://github.com/svict4'
+      url: https://github.com/svict4
     - name: Kiri Hoy
       img: kiri-hoy.jpg
-      url: 'https://github.com/kirihoy'
+      url: https://github.com/kirihoy
   state: published
   category: navigation
   status:
@@ -1712,46 +1712,46 @@ side-nav:
   contributors:
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Christopher Lee
       img: christopher-lee.jpg
-      url: 'https://github.com/sirleech'
+      url: https://github.com/sirleech
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Julian Fleetwood
       img: julian-fleetwood.jpg
-      url: 'https://github.com/joolswood'
+      url: https://github.com/joolswood
     - name: Petra Gulicher
       img: petra-gulicher.jpg
-      url: 'https://github.com/petronbot'
+      url: https://github.com/petronbot
     - name: Simon Pascal Klein
       img: simon-pascal-klein.jpg
-      url: 'https://github.com/klepas'
+      url: https://github.com/klepas
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Chris Lamb
       img: chris-lamb.jpg
-      url: 'https://github.com/Chris820'
+      url: https://github.com/Chris820
     - name: Alexandra Baranov
       img: alexandra-baranov.jpg
-      url: 'https://au.linkedin.com/in/alexandrabaranov'
+      url: https://au.linkedin.com/in/alexandrabaranov
     - name: DHS Web Services Team
       img: dhs-webservices-team.jpg
-      url: 'https://www.humanservices.gov.au/'
+      url: https://www.humanservices.gov.au/
     - name: Simon Victory
       img: simon-victory.jpg
-      url: 'http://github.com/svict4'
+      url: http://github.com/svict4
     - name: Raj Ghuman
       img: raj-ghuman.jpg
-      url: 'https://github.com/sukhrajghuman'
+      url: https://github.com/sukhrajghuman
   state: published
   category: navigation
   status:
@@ -1805,22 +1805,22 @@ card:
   contributors:
     - name: Raj Ghuman
       img: raj-ghuman.jpg
-      url: 'https://github.com/sukhrajghuman'
+      url: https://github.com/sukhrajghuman
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Gary Broadbent
       img: gary-broadbent.jpg
-      url: 'https://github.com/gazhands'
+      url: https://github.com/gazhands
     - name: Dominik Wilkowski
       img: dominik-wilkowski.jpg
-      url: 'https://github.com/dominikwilkowski'
+      url: https://github.com/dominikwilkowski
     - name: Petr Illek
       img: petr.jpg
-      url: 'https://github.com/petrillek/'
+      url: https://github.com/petrillek/
   state: published
   category: layout
   order: 3
@@ -1857,25 +1857,25 @@ searchbox:
   contributors:
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
     - name: Alex Page
       img: alex-page.jpg
-      url: 'https://github.com/alex-page'
+      url: https://github.com/alex-page
     - name: Patrick De Young
       img: patrick-de-young.jpg
-      url: 'https://github.com/pattyde'
+      url: https://github.com/pattyde
     - name: Raj Ghuman
       img: raj-ghuman.jpg
-      url: 'https://github.com/sukhrajghuman'
+      url: https://github.com/sukhrajghuman
     - name: Gordon Grace
       img: gordon-grace.jpg
-      url: 'https://github.com/gordongrace'
+      url: https://github.com/gordongrace
     - name: Christopher Lee
       img: christopher-lee.jpg
-      url: 'https://github.com/sirleech'
+      url: https://github.com/sirleech
     - name: Alexandra Baranov
       img: alexandra-baranov.jpg
-      url: 'https://au.linkedin.com/in/alexandrabaranov'
+      url: https://au.linkedin.com/in/alexandrabaranov
   state: published
   category: forms
   status:
@@ -1916,7 +1916,7 @@ pagination:
   contributors:
     - name: Trevor Brennan
       img: trevor-brennan.jpg
-      url: 'https://github.com/TrebBrennan'
+      url: https://github.com/TrebBrennan
   state: suggestion
   status:
     useful: done

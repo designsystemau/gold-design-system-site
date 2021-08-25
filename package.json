@@ -86,8 +86,9 @@
 		"node-fetch": "^2.6.1",
 		"node-sass": "^4.14.1",
 		"numeral": "^2.0.6",
-		"onchange": "^5.2.0",
-		"postcss-cli": "^6.1.2",
+		"onchange": "^7.1.0",
+		"postcss": "^8.3.6",
+		"postcss-cli": "^8.3.1",
 		"slugify": "^1.6.0",
 		"uglify-js": "^3.14.1"
 	},
