@@ -3,10 +3,10 @@
 #### Mandate
 The Australian Government Design System (design system) is not mandatory for Australian Government agencies.
 
-However, we believe that it is the simplest, fastest and clearest way for agencies undergoing a service redesign to meet several criteria from the mandatory [Digital Service Standard](https://www.designsystem.org/standard):
+However, we believe that it is the simplest, fastest and clearest way for agencies undergoing a service redesign to meet several criteria from the mandatory [Digital Service Standard](https://www.designsystemau.org/standard):
 
-- [6. Consistent and responsive design](https://www.designsystem.org/help-and-advice/digital-service-standard/digital-service-standard-criteria/6-consistent-and-responsive-design)
-- [9. Make it accessible](https://www.designsystem.org/help-and-advice/digital-service-standard/digital-service-standard-criteria/9-make-it-accessible)
+- [6. Consistent and responsive design](https://www.designsystemau.org/help-and-advice/digital-service-standard/digital-service-standard-criteria/6-consistent-and-responsive-design)
+- [9. Make it accessible](https://www.designsystemau.org/help-and-advice/digital-service-standard/digital-service-standard-criteria/9-make-it-accessible)
 
 <!--
 #### Responsibilities
@@ -40,7 +40,7 @@ Agencies may choose to:
 - Inherit a pre-configured system, or
 - Contract the modifications to a third party
 
-Agencies are encouraged to retain as much consistency with the design system as possible. Relevant agencies also need to ensure that they maintain alignment with existing guidelines for the [digital implementation of the Australian Government brand](https://www.designsystem.org/help-and-advice/guides-and-tools/requirements-australian-government-websites/branding).
+Agencies are encouraged to retain as much consistency with the design system as possible. Relevant agencies also need to ensure that they maintain alignment with existing guidelines for the [digital implementation of the Australian Government brand](https://www.designsystemau.org/help-and-advice/guides-and-tools/requirements-australian-government-websites/branding).
 
 #### Code Reviews and Pull Requests (PRs)
 
@@ -73,7 +73,7 @@ Membership of the core team is currently comprised of Design System AU staff.
 
 Core contributors are expected to have a background in at least two of the following: front-end design, front-end engineering, full-stack development, accessibility, content design, user research, interaction design or user experience design.
 
-We are considering broadening membership to include trusted individuals or organisations who demonstrate appropriate experience and operate in accordance with the APS Code of Conduct. If you like to nominate someone as a potential member of the core team, please let us know by emailing [designsystem@designsystem.org](mailto:designsystem@designsystem.org).
+We are considering broadening membership to include trusted individuals or organisations who demonstrate appropriate experience and operate in accordance with the APS Code of Conduct. If you like to nominate someone as a potential member of the core team, please let us know by emailing [hi@designsystemau.org](mailto:hi@designsystemau.org).
 
 #### Contributions and Attributions
 Design System AU is responsible for reviewing, attributing and potentially accepting all contributions received in the form of code, design, research or discussion. Detailed contribution guides are maintained by the core team as CONTRIBUTING.md files in all relevant GitHub repositories.

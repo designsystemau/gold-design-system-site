@@ -41,6 +41,11 @@ const Footer = ({ headline, legallist, mainlist, _body, _ID, _relativeURL }) => 
 						</p>
 					</div>
 
+					<div className="col-md-3 col-md-pull-9 footer__aoc">
+						<p>
+							<span>We acknowledge the traditional owners and custodians of country throughout Australia and acknowledge their continuing connection to land, waters and community. We pay our respects to the people, the cultures and the elders past, present and emerging.</span>
+						</p>
+					</div>
 				</AUfooterNav>
 			</div>
 

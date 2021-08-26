@@ -14,6 +14,7 @@ npm-debug.log
 
 
 # artifacts
+site
 **/_auds/**
 000-auds.js
 src/assets/css/style.css

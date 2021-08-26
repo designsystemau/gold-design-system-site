@@ -89,7 +89,7 @@ const ComponentFooter = ({ _ID, _parseYaml, _relativeURL, _parents }) => {
 								: null
 						}
 						<li>
-							<a className="icon icon--email" href="mailto:designsystem@designsystem.org">Email the team</a>
+							<a className="icon icon--email" href="mailto:hi@designsystemau.org">Email the team</a>
 						</li>
 					</ul>
 				</div>
