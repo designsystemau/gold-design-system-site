@@ -24,7 +24,7 @@ const Customise = ({ _ID, _relativeURL, _parseYaml }) => {
 	const template = templates[templateID];
 
 	const pagetitle = `Customise ${ template.name } page template`;
-	
+
 	const templateNameLowerCase = template.name.toLowerCase();
 	const description = `Customise ${ templateNameLowerCase } page template with different colour blindness filters, custom colour schemes and preset palettes.`;
 
@@ -44,25 +44,23 @@ const Customise = ({ _ID, _relativeURL, _parseYaml }) => {
 <link rel="icon" type="image/png" sizes="32x32" href=${ _relativeURL('/assets/favicons/favicon-32x32.png', _ID ) }>
 <link rel="icon" type="image/png" sizes="16x16" href=${ _relativeURL('/assets/favicons/favicon-16x16.png', _ID ) }>
 <link rel="manifest" href=${ _relativeURL('/assets/favicons/site.webmanifest', _ID ) }>
-<link rel="mask-icon" href=${ _relativeURL('/assets/favicons/safari-pinned-tab.svg', _ID ) } color="#06262d">
 <link rel="shortcut icon" href=${ _relativeURL('/assets/favicons/favicon.ico', _ID ) }>
-<meta name="msapplication-config" content=${ _relativeURL('/assets/favicons/browserconfig.xml', _ID ) }>
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <meta name="robots" content="index, follow">
-<meta name="author" content="Digital Transformation Agency">
+<meta name="author" content="Design System AU">
 <meta name="description" content="${ description }">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Australian Government Design System">
 <meta name="twitter:description" content="${ description }">
 <meta name="twitter:name" content="Australian Government Design System">
-<meta name="twitter:image" content="https://designsystem.gov.au/assets/favicons/designsystem.jpg">
+<meta name="twitter:image" content="https://docs.designsystemau.org/assets/favicons/designsystemau-og-img.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="${pagetitle} - Australian Government Design System">
 <meta property="og:site_name" content="Australian Government Design System">
 <meta property="og:description" content="${ description }">
-<meta property="og:image" content="https://designsystem.gov.au/assets/favicons/designsystem.jpg">
-<meta property="og:url" content="https://designsystem.gov.au">
+<meta property="og:image" content="https://docs.designsystemau.org/assets/favicons">
+<meta property="og:url" content="https://docs.designsystemau.org">
 
 <title>${ pagetitle } - Australian Government Design System</title>
 
@@ -218,6 +216,16 @@ const Customise = ({ _ID, _relativeURL, _parseYaml }) => {
 			</main>
 			<script src={_relativeURL("/assets/js/footer.js", _ID)} />
 			<script src={_relativeURL("/assets/js/chameleon.js", _ID)} />
+
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-MHDT7K286L"/>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments)}
+				gtag('js', new Date());
+
+				gtag('config', 'G-MHDT7K286L');
+			</script>
 		</body>
 		</html>
 	);
