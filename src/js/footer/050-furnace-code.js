@@ -25,13 +25,13 @@ AddEvent( furnaceClear, 'click', function( event ){
  */
 AddEvent( furnaceDownload, 'click', function( event ){
 	var selectedItems = GetSelectedFormItems( 'furnace' );
-	// var analytics  = {
-	// 	'event': 'download',
-	// 	'selectedComponents' : selectedItems.components.join( ' ' ),
-	// 	'selectedCss' : selectedItems.styleOutput[ 0 ],
-	// 	'selectedJs' : selectedItems.jsOutput[ 0 ]
-	// }
-	// dataLayer.push( analytics );
+	var analytics  = {
+		'event': 'download',
+		'selectedComponents' : selectedItems.components.join( ' ' ),
+		'selectedCss' : selectedItems.styleOutput[ 0 ],
+		'selectedJs' : selectedItems.jsOutput[ 0 ]
+	}
+	dataLayer.push( analytics );
 });
 
 

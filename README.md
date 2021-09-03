@@ -1,7 +1,7 @@
 Australian Government Design System - Website
 ====
 
-https://designsystemau.org/docs
+https://docs.designsystemau.org
 
 
 ## Prerequisites
