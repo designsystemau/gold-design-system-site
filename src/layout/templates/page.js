@@ -55,13 +55,13 @@ const TemplatePage = ({
 <meta name="twitter:title" content="Australian Government Design System">
 <meta name="twitter:description" content="${ description }">
 <meta name="twitter:name" content="Australian Government Design System">
-<meta name="twitter:image" content="https://designsystem.gov.au/assets/favicons/designsystem.jpg">
+<meta name="twitter:image" content="https://docs.designsystemau.org/assets/favicons/designsystem.jpg">
 <meta property="og:type" content="website">
 <meta property="og:title" content="${ pagetitle } - Australian Government Design System">
 <meta property="og:site_name" content="Australian Government Design System">
 <meta property="og:description" content="${ description }">
-<meta property="og:image" content="https://designsystem.gov.au/assets/favicons/designsystem.jpg">
-<meta property="og:url" content="https://designsystem.gov.au">
+<meta property="og:image" content="https://docs.designsystemau.org/assets/favicons/designsystem.jpg">
+<meta property="og:url" content="https://docs.designsystemau.org">
 
 <title>${ pagetitle } - Australian Government Design System</title>
 

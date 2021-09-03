@@ -35,13 +35,13 @@ const Page = ({
 <meta name="twitter:title" content="Australian Government Design System">
 <meta name="twitter:description" content="The Australian Government Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.">
 <meta name="twitter:name" content="Australian Government Design System">
-<meta name="twitter:image" content="https://designsystem.gov.au/assets/favicons/designsystem.jpg">
+<meta name="twitter:image" content="https://docs.designsystemau.org/assets/favicons/designsystem.jpg">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Homepage - Australian Government Design System">
 <meta property="og:site_name" content="Australian Government Design System">
 <meta property="og:description" content="The Australian Government Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.">
-<meta property="og:image" content="https://designsystem.gov.au/assets/favicons/designsystem.jpg">
-<meta property="og:url" content="https://designsystem.gov.au">
+<meta property="og:image" content="https://docs.designsystemau.org/assets/favicons/designsystem.jpg">
+<meta property="og:url" content="https://docs.designsystemau.org">
 <meta name="google-site-verification" content="rd00twS6xfSXiS4gzkLEBfJ3sRmQXz2YBhkCFWTivzI" />
 
 <title>Homepage - Australian Government Design System</title>
