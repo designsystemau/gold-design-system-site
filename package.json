@@ -1,7 +1,7 @@
 {
 	"name": "designsystem",
 	"version": "1.0.1",
-	"description": "The Australian Government Design System website.",
+	"description": "The Australian Government Design System docs website.",
 	"scripts": {
 		"docs": "cuttlebelle docs",
 		"prebuild:pancake": "pancake",

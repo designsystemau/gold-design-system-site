@@ -53,6 +53,14 @@ const Page = ({
 
 <link rel="stylesheet" href=${ _relativeURL( '/assets/css/style.css', _ID ) }>
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MHDT7K286L"/>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments)}
+gtag('js', new Date());
+gtag('config', 'G-MHDT7K286L');
+</script>
+
 <!--[if lte IE 9]>
 	<script src="${ _relativeURL( '/assets/js/html5shiv.js', _ID ) }"></script>
 	<script src="${ _relativeURL( '/assets/js/respond.js', _ID ) }"></script>
@@ -65,7 +73,6 @@ const Page = ({
 		<head dangerouslySetInnerHTML={{ __html: headContent }} />
 
 		<body className="au-grid basicpage">
-			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Z7S8GB" height="0" width="0" style={{display:'none',visibility:'hidden'}}></iframe></noscript>
 			{ header }
 			<div className="page-wrapper">
 				<div className="content-wrapper">

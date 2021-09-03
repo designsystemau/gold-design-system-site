@@ -66,6 +66,14 @@ const Customise = ({ _ID, _relativeURL, _parseYaml }) => {
 
 <link rel="stylesheet" href=${ _relativeURL( '/assets/css/customise.css', _ID ) }>
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MHDT7K286L"/>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments)}
+gtag('js', new Date());
+gtag('config', 'G-MHDT7K286L');
+</script>
+
 <!--[if lte IE 9]>
 	<script src="${ _relativeURL( '/assets/js/html5shiv.js', _ID ) }"></script>
 	<script src="${ _relativeURL( '/assets/js/respond.js', _ID ) }"></script>
@@ -216,16 +224,6 @@ const Customise = ({ _ID, _relativeURL, _parseYaml }) => {
 			</main>
 			<script src={_relativeURL("/assets/js/footer.js", _ID)} />
 			<script src={_relativeURL("/assets/js/chameleon.js", _ID)} />
-
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=G-MHDT7K286L"/>
-			<script>
-				window.dataLayer = window.dataLayer || [];
-				function gtag(){dataLayer.push(arguments)}
-				gtag('js', new Date());
-
-				gtag('config', 'G-MHDT7K286L');
-			</script>
 		</body>
 		</html>
 	);

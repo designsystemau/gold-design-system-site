@@ -45,6 +45,14 @@ const Page = ({
 
 <link rel="stylesheet" href="/assets/css/style.css">
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MHDT7K286L"/>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments)}
+gtag('js', new Date());
+gtag('config', 'G-MHDT7K286L');
+</script>
+
 <!--[if lte IE 9]>
 	<script src="/assets/js/html5shiv.js"></script>
 	<script src="/assets/js/respond.js"></script>
@@ -74,16 +82,6 @@ const Page = ({
 				{ footer }
 			</div>
 			<script src="/assets/js/footer.js" />
-
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=G-MHDT7K286L"/>
-			<script>
-				window.dataLayer = window.dataLayer || [];
-				function gtag(){dataLayer.push(arguments)}
-				gtag('js', new Date());
-
-				gtag('config', 'G-MHDT7K286L');
-			</script>
 		</body>
 		</html>
 	);
