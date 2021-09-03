@@ -16,7 +16,7 @@ We provide online and offline platforms for the community to discuss, contribute
 
 - Defining and championing [design principles](https://docs.designsystemau.org/about#design-principles) to guide the direction and shape of the product
 - Managing administrators and moderators of the [design system community forum](https://community.digital.gov.au/c/designsystem) and the associated [Code of Conduct](https://community.digital.gov.au/faq)
-- Managing membership of the [core team](https://github.com/orgs/govau/teams/design-system) on our [GitHub project](https://github.com/orgs/govau/projects/7)
+- Managing membership of the [maintainers team](https://github.com/orgs/designsystemau/teams/maintainers)
 
 #### Cost Recovery
 The Design System AU does not charge for the use of the design system. It is provided for use under a MIT license.
