@@ -31,7 +31,6 @@ AddEvent( furnaceDownload, 'click', function( event ){
 		'selectedCss' : selectedItems.styleOutput[ 0 ],
 		'selectedJs' : selectedItems.jsOutput[ 0 ]
 	}
-
 	dataLayer.push( analytics );
 });
 

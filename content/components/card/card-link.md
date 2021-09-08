@@ -11,7 +11,7 @@ code:
         -->
 
         <div class="au-card au-body au-card--shadow au-card--clickable">
-            <img class="au-responsive-media-img" src="https://designsystem.gov.au/assets/img/placeholder/600X260.png" alt />
+            <img class="au-responsive-media-img" src="https://docs.designsystemau.org/assets/img/placeholder/600X260.png" alt />
             <div class="au-card__inner">
                 <h3 class="au-card__title"><a class="au-card--clickable__link" href="#">Title of article</a></h3>
                 <p>Some text</p>
@@ -28,7 +28,7 @@ code:
         import AUcard, { AUcardInner, AUcardLink, AUcardTitle } from '@gov.au/card';
 
         <AUcard className="au-body" clickable shadow>
-            <img className="au-responsive-media-img" src="https://designsystem.gov.au/assets/img/placeholder/600X260.png" alt="" />
+            <img className="au-responsive-media-img" src="https://docs.designsystemau.org/assets/img/placeholder/600X260.png" alt="" />
                 <AUcardInner>
                     <AUcardTitle level="3"><AUcardLink link="#" text="Title of article" /></AUcardTitle>
                         <p>Some text</p>

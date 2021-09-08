@@ -6,7 +6,7 @@ import React, { Fragment } from 'react';
 /**
  * The headergovau component
  */
-const HeaderGovAU = ({ publisher, publisher_url, left_title, left_content, right_title, right_content }) => (
+const HeaderGovAU = ({ publisher, publisher_url, right_title, right_content }) => (
 	<div className="headergovau">
 		<div className="container-fluid">
 			<div className="row headergovau__bar">
@@ -35,12 +35,6 @@ const HeaderGovAU = ({ publisher, publisher_url, left_title, left_content, right
 				>
 				<div className="au-accordion__body-wrapper">
 					<div className="col-sm-6">
-						<div className="headergovau__icon-content icon--govau">
-							<p className="headergovau__content__title">{ left_title }</p>
-							<p>{ left_content }</p>
-						</div>
-					</div>
-					<div className="col-sm-6">
 						<div className="headergovau__icon-content icon--secure">
 							<p className="headergovau__content__title">{ right_title }</p>
 							<p>{ right_content }</p>
@@ -62,16 +56,6 @@ HeaderGovAU.propTypes = {
 	 * publisher_url: https://designsystemau.org
 	 */
 	publisher_url: PropTypes.string.isRequired,
-
-	/**
-	 * left_title: The .gov.au means its official
-	 */
-	left_title: PropTypes.string.isRequired,
-
-	/**
-	 * left_content: Lorem ipsum dolor sit amet, vix civibus deserunt te, sit eu nulla discere consulatu, ei graeci consectetuer has.
-	 */
-	left_content: PropTypes.string.isRequired,
 
 	/**
 	 * right_title: This site is also protected by SSL
