@@ -22,30 +22,36 @@ const Page = ({
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
 <link rel="manifest" href="/assets/favicons/site.webmanifest">
-<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#06262d">
 <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
-<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <meta name="robots" content="index, follow">
-<meta name="author" content="Digital Transformation Agency">
+<meta name="author" content="Design System AU">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Australian Government Design System">
 <meta name="twitter:description" content="Inclusive design, open-source code and shared insights">
 <meta name="twitter:name" content="Australian Government Design System">
-<meta name="twitter:image" content="https://designsystem.gov.au/assets/favicons/designsystem.jpg">
+<meta name="twitter:image" content="https://docs.designsystemau.org/assets/favicons/designsystemau-og-img.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="${ pagetitle } - Australian Government Design System">
 <meta property="og:site_name" content="Australian Government Design System">
 <meta property="og:description" content="Inclusive design, open-source code and shared insights">
-<meta property="og:image" content="https://designsystem.gov.au/assets/favicons/designsystem.jpg">
-<meta property="og:url" content="https://designsystem.gov.au">
+<meta property="og:image" content="https://docs.designsystemau.org/assets/favicons">
+<meta property="og:url" content="https://docs.designsystemau.org">
 
 <title>${ pagetitle } - Australian Government Design System</title>
 
 <base href="##url##">
 
 <link rel="stylesheet" href="/assets/css/style.css">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MHDT7K286L"/>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments)}
+gtag('js', new Date());
+gtag('config', 'G-MHDT7K286L');
+</script>
 
 <!--[if lte IE 9]>
 	<script src="/assets/js/html5shiv.js"></script>
@@ -59,8 +65,6 @@ const Page = ({
 		<head dangerouslySetInnerHTML={{ __html: headContent }} />
 
 		<body className="au-grid">
-			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Z7S8GB" height="0" width="0" style={{display:'none',visibility:'hidden'}}></iframe></noscript>
-
 			{ header }
 			<div className="page-wrapper">
 				<div className="content-wrapper">

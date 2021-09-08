@@ -8,7 +8,7 @@ layout: section
 import AUcard, { AUcardInner, AUcardDivider, AUcardLink, AUcardHeader, AUcardTitle, AUcardFooter } from '@gov.au/card';
 
 <AUcard className="au-body">
-    <img className="au-responsive-media-img" src="https://designsystem.gov.au/assets/img/placeholder/600X260.png"  alt=""/>
+    <img className="au-responsive-media-img" src="https://docs.designsystemau.org/assets/img/placeholder/600X260.png"  alt=""/>
     <AUcardInner>
             <span>Image caption or description</span>
         <AUcardFooter>
@@ -19,7 +19,7 @@ import AUcard, { AUcardInner, AUcardDivider, AUcardLink, AUcardHeader, AUcardTit
 
 //Entire card clickable and single anchor:
 <AUcard class="au-body">
-    <img className="au-responsive-media-img" src="https://designsystem.gov.au/assets/img/placeholder/600X260.png" alt="" />
+    <img className="au-responsive-media-img" src="https://docs.designsystemau.org/assets/img/placeholder/600X260.png" alt="" />
     <AUcardInner>
     <AUcardTitle level="2">
         <AUcardLink link="#" text="Some link" />

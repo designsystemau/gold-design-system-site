@@ -35,18 +35,26 @@ const Page = ({
 <meta name="twitter:title" content="Australian Government Design System">
 <meta name="twitter:description" content="The Australian Government Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.">
 <meta name="twitter:name" content="Australian Government Design System">
-<meta name="twitter:image" content="https://designsystem.gov.au/assets/favicons/designsystem.jpg">
+<meta name="twitter:image" content="https://docs.designsystemau.org/assets/favicons/designsystem.jpg">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Homepage - Australian Government Design System">
 <meta property="og:site_name" content="Australian Government Design System">
 <meta property="og:description" content="The Australian Government Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.">
-<meta property="og:image" content="https://designsystem.gov.au/assets/favicons/designsystem.jpg">
-<meta property="og:url" content="https://designsystem.gov.au">
+<meta property="og:image" content="https://docs.designsystemau.org/assets/favicons/designsystem.jpg">
+<meta property="og:url" content="https://docs.designsystemau.org">
 <meta name="google-site-verification" content="rd00twS6xfSXiS4gzkLEBfJ3sRmQXz2YBhkCFWTivzI" />
 
 <title>Homepage - Australian Government Design System</title>
 
 <link rel="stylesheet" href=${ _relativeURL( '/assets/css/style.css', _ID ) }>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MHDT7K286L"/>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments)}
+gtag('js', new Date());
+gtag('config', 'G-MHDT7K286L');
+</script>
 
 <!--[if lte IE 9]>
 	<script src="${ _relativeURL( '/assets/js/html5shiv.js', _ID ) }"></script>
@@ -73,7 +81,6 @@ const Page = ({
 		<head dangerouslySetInnerHTML={{ __html: headContent }} />
 
 		<body className="au-grid">
-			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Z7S8GB" height="0" width="0" style={{display:'none',visibility:'hidden'}}></iframe></noscript>
 			{ header }
 			<div className="page-wrapper">
 				<div className="content-wrapper">

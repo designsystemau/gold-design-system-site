@@ -1,7 +1,7 @@
 {
 	"name": "designsystem",
 	"version": "1.0.1",
-	"description": "The Australian Government Design System website.",
+	"description": "The Australian Government Design System docs website.",
 	"scripts": {
 		"docs": "cuttlebelle docs",
 		"prebuild:pancake": "pancake",
@@ -36,13 +36,6 @@
 		"url": "https://designsystemau.org/"
 	},
 	"homepage": "https://github.com/designsystemau/design-system-site",
-	"contributors": [
-		{
-			"name": "Australian Government - Digital Transformation Agency",
-			"email": "hi@designsystemau.org",
-			"url": "https://www.designsystemau.org/"
-		}
-	],
 	"license": "MIT",
 	"dependencies": {
 		"@gov.au/accordion": "latest",
@@ -93,7 +86,7 @@
 		"uglify-js": "^3.14.1"
 	},
 	"engines": {
-		"node": ">=8",
+		"node": ">=12.13.1",
 		"npm": ">=6"
 	},
 	"cuttlebelle": {

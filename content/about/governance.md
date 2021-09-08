@@ -14,9 +14,9 @@ Design System AU is the curator of the design system and related communities.
 
 We provide online and offline platforms for the community to discuss, contribute to, adapt and extend the design system and ensure the design system continues to meet the community’s needs. Design System AU is also responsible for:
 
-- Defining and championing [design principles](https://designsystem.gov.au/about#design-principles) to guide the direction and shape of the product
+- Defining and championing [design principles](https://docs.designsystemau.org/about#design-principles) to guide the direction and shape of the product
 - Managing administrators and moderators of the [design system community forum](https://community.digital.gov.au/c/designsystem) and the associated [Code of Conduct](https://community.digital.gov.au/faq)
-- Managing membership of the [core team](https://github.com/orgs/govau/teams/design-system) on our [GitHub project](https://github.com/orgs/govau/projects/7)
+- Managing membership of the [maintainers team](https://github.com/orgs/designsystemau/teams/maintainers)
 
 #### Cost Recovery
 The Design System AU does not charge for the use of the design system. It is provided for use under a MIT license.
@@ -66,7 +66,7 @@ If you are using the design system (even in a non-public environment), please le
 #### Core Team
 As adoption and maturity of the design system has increased, the core team has moved towards using a federated model for collaborating on and contributing to the product. As a result, working on the design system is no longer a full-time role for any core team member.
 
-Each core team member is directly involved in the design, development and delivery of one or more whole-of-government digital services. This ensures that the design system is deployed appropriately on those services and provides a strong feedback loop between real-world implementations and the design system product [roadmap](https://designsystem.gov.au/roadmap).
+Each core team member is directly involved in the design, development and delivery of one or more whole-of-government digital services. This ensures that the design system is deployed appropriately on those services and provides a strong feedback loop between real-world implementations and the design system product [roadmap](https://docs.designsystemau.org/roadmap).
 
 #### Membership
 Membership of the core team is currently comprised of Design System AU staff.
