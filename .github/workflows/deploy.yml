@@ -19,7 +19,7 @@ jobs:
         run: |
           npm install
           npm run prebuild
-          npm run build:site
+          npm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
