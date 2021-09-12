@@ -1,6 +1,12 @@
 ## Governance
 
+GOLD Design System is governed by a Technical Steering Community.
+
+Details can be [read here](https://github.com/designsystemau/tsc).
+
+
 #### Mandate
+
 The Australian Government Design System (design system) is not mandatory for Australian Government agencies.
 
 However, we believe that it is the simplest, fastest and clearest way for agencies undergoing a service redesign to meet several criteria from the mandatory [Digital Service Standard](https://www.designsystemau.org/standard):
