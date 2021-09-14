@@ -50,7 +50,7 @@ Individual components can be installed via the command line using `npm install`.
 The component name and version is also added to our list of dependencies in the `package.json` file. Let's start by installing the body, header and accordion components.
 
 ```bash
-npm install @gov.au/body @gov.au/header @gov.au/accordion
+npm install @gold.au/body @gold.au/header @gold.au/accordion
 ```
 
 Now that the components have been installed your folder structure should match:

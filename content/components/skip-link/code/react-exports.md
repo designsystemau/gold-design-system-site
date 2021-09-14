@@ -11,7 +11,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUskipLink from '@gov.au/skip-link';
+import AUskipLink from '@gold.au/skip-link';
 ```
 
 ### [md]pancake import

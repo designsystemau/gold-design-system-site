@@ -37,7 +37,7 @@ code:
             </tbody>
         </table>
   - React: |
-        import AUtable, {AUtableResponsiveWrapper, AUtableHead, AUtableRow, AUtableBody, AUtableHeader, AUtableCell } from "@gov.au/table";
+        import AUtable, {AUtableResponsiveWrapper, AUtableHead, AUtableRow, AUtableBody, AUtableHeader, AUtableCell } from "@gold.au/table";
         
         const simpleData = [
             {population: "7,670,700",     location: "New South Wales"},

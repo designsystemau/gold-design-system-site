@@ -19,7 +19,7 @@ code:
         Dark:   <AUcalloutCalendar dark>
       */
 
-      import { AUcallout } from '@gov.au/callout';
+      import { AUcallout } from '@gold.au/callout';
 
       <AUcallout srOnlyTitle title="Title of the callout">
         <p>Description of the callout</p>

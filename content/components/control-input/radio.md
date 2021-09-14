@@ -22,7 +22,7 @@ code:
         Dark:   <AUradio dark>
       */
 
-      import { AUradio } from '@gov.au/control-input';
+      import { AUradio } from '@gold.au/control-input';
 
       <AUradio label="Phone" name="radio-ex" id="radio-phone-block" />
       <AUradio label="Tablet" name="radio-ex" id="radio-tablet-block" defaultChecked />

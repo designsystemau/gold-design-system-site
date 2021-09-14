@@ -11,7 +11,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUbreadcrumbs from '@gov.au/breadcrumbs';
+import AUbreadcrumbs from '@gold.au/breadcrumbs';
 ```
 
 ### [md]pancake import

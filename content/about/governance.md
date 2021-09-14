@@ -63,7 +63,7 @@ Design System AU does not undertake reviews of, or report on, implementations of
 
 However, Design System AU tracks usage of design system components using a combination of:
 
-- [NPM download statistics](https://www.npmjs.com/package/@gov.au/core)
+- [NPM download statistics](https://www.npmjs.com/package/@gold.au/core)
 - Markup signatures detected in the [whole-of-government web crawl](https://data.gov.au/dataset/ds-dga-99f43557-1d3d-40e7-bc0c-665a4275d625/details)
 - Users’ self-reporting via the [community forum](https://community.digital.gov.au/t/showcase/)
 

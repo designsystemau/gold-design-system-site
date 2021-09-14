@@ -47,7 +47,7 @@ code:
               https://www.paulirish.com/2009/avoiding-the-fouc-v3/
       */
 
-      import AUaccordion from '@gov.au/accordion';
+      import AUaccordion from '@gold.au/accordion';
       <ul className="au-accordion-group">
         <li>
           <AUaccordion closed={ true } header="Accordion group 1">

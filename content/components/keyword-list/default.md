@@ -25,7 +25,7 @@ code:
         Dark:   <AUkeywordList dark repeatedName='repeated text'
       */
 
-      import AUkeywordList from '@gov.au/keyword-list';
+      import AUkeywordList from '@gold.au/keyword-list';
 
       <AUkeywordList repeatedName='Department of' items={[
         {

@@ -11,7 +11,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUkeywordList from '@gov.au/keyword-list';
+import AUkeywordList from '@gold.au/keyword-list';
 ```
 
 ### [md]pancake import

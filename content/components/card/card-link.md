@@ -25,7 +25,7 @@ code:
             anchor wrapper: <AUcard link="#" />
         -->
 
-        import AUcard, { AUcardInner, AUcardLink, AUcardTitle } from '@gov.au/card';
+        import AUcard, { AUcardInner, AUcardLink, AUcardTitle } from '@gold.au/card';
 
         <AUcard className="au-body" clickable shadow>
             <img className="au-responsive-media-img" src="https://docs.designsystemau.org/assets/img/placeholder/600X260.png" alt="" />

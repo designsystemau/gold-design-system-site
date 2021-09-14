@@ -21,8 +21,8 @@ code:
         /*
             status:  <AUformGroup status="invalid" />
         */
-        import { AUlabel, AUformGroup } from '@gov.au/form';
-        import { AUtextInput } from '@gov.au/text-inputs';
+        import { AUlabel, AUformGroup } from '@gold.au/form';
+        import { AUtextInput } from '@gold.au/text-inputs';
 
         <AUformGroup>
             <AUlabel text="First Name" htmlFor="firstname" />

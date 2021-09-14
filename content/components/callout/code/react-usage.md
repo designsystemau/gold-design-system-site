@@ -5,7 +5,7 @@ layout: section
 ## React Usage
 
 ```jsx
-import { AUcallout, AUcalloutCalendar } from '@gov.au/callout';
+import { AUcallout, AUcalloutCalendar } from '@gold.au/callout';
 
 <AUcallout title="Title of callout">
 	<p>Description of callout</p>

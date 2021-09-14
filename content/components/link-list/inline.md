@@ -14,7 +14,7 @@ code:
         <li><a href="#">Sign Out</a></li>
       </ul>
   - React: |
-      import AUlinkList from '@gov.au/link-list';
+      import AUlinkList from '@gold.au/link-list';
 
       <AUlinkList inline items={[
         {

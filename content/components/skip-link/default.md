@@ -16,7 +16,7 @@ code:
         Some content here
       </div>
   - React: |
-      import AUskipLink from '@gov.au/skip-link';
+      import AUskipLink from '@gold.au/skip-link';
 
       <AUskipLink links={[
         {

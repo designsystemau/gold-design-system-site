@@ -5,7 +5,7 @@ layout: section
 ## React Usage
 
 ```jsx
-import AUtable, {AUtableResponsiveWrapper, AUtableCaption, AUtableCell, AUtableHead, AUtableHeader, AUtableBody, AUtableRow} from '@gov.au/table';
+import AUtable, {AUtableResponsiveWrapper, AUtableCaption, AUtableCell, AUtableHead, AUtableHeader, AUtableBody, AUtableRow} from '@gold.au/table';
 
 
 //simple example

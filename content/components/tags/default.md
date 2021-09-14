@@ -20,7 +20,7 @@ code:
         Dark:   <AUtagList dark tags={[
       */
 
-      import AUtagList, {AUtag} from '@gov.au/tags';
+      import AUtagList, {AUtag} from '@gold.au/tags';
 
       <AUtagList tags={[
         {

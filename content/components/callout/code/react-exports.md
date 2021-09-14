@@ -12,7 +12,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import { AUcallout, AUcalloutCalendar } from '@gov.au/callout';
+import { AUcallout, AUcalloutCalendar } from '@gold.au/callout';
 ```
 
 ### [md]pancake import

@@ -5,7 +5,7 @@ layout: section
 ## React Usage
 
 ```jsx
-import { AUinpageNavLinks, AUinpageNavSection } from '@gov.au/inpage-nav';
+import { AUinpageNavLinks, AUinpageNavSection } from '@gold.au/inpage-nav';
 
 <AUinpageNavLinks sections={[
   {

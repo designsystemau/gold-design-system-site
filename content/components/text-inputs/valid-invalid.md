@@ -17,7 +17,7 @@ code:
         Invalid: <AUtextInput status="invalid" aria-invalid="true" />
       */
 
-      import AUtextInput from '@gov.au/text-inputs';
+      import AUtextInput from '@gold.au/text-inputs';
 
       <label htmlFor="text-input" >label text</label>
       <AUtextInput status="valid" />

@@ -21,7 +21,7 @@ code:
         Dark:   <AUcalloutCalendar dark>
       */
 
-      import { AUcalloutCalendar } from '@gov.au/callout';
+      import { AUcalloutCalendar } from '@gold.au/callout';
 
       <AUcalloutCalendar
         title="Callout calendar"

@@ -48,7 +48,7 @@ code:
         Dark:   <AUfooter dark>
       */
 
-      import AUfooter, { AUfooterNav, AUfooterEnd } from '@gov.au/footer';
+      import AUfooter, { AUfooterNav, AUfooterEnd } from '@gold.au/footer';
 
       <div className="au-grid au-body">
         <AUfooter>

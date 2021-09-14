@@ -17,7 +17,7 @@ code:
         Dark:   <AUtextInput dark disabled>
       */
 
-      import AUtextInput from '@gov.au/text-inputs';
+      import AUtextInput from '@gold.au/text-inputs';
 
       <label htmlFor="text-input" >label text</label>
       <AUtextInput disabled />

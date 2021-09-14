@@ -22,7 +22,7 @@ code:
         Invalid:   <AUradio status="invalid">
       */
 
-      import { AUradio } from '@gov.au/control-input';
+      import { AUradio } from '@gold.au/control-input';
 
       <AUradio label="Phone" status="valid" name="radio-ex" id="radio-phone-invalid"/>
       <AUradio label="Tablet" status="invalid" name="radio-ex" id="radio-tablet-invalid" defaultChecked />

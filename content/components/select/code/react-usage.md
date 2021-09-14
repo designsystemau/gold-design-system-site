@@ -5,7 +5,7 @@ layout: section
 ## React Usage
 
 ```jsx
-import AUselect from '@gov.au/select';
+import AUselect from '@gold.au/select';
 
 <AUselect id="exampleSelect" options={[
   {

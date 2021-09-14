@@ -5,7 +5,7 @@ layout: section
 ## React Usage
 
 ```jsx
-import AUaccordion from '@gov.au/accordion';
+import AUaccordion from '@gold.au/accordion';
 
 <Accordion header="Open">
   Some content of the accordion <a href="#url">here</a>

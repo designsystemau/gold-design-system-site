@@ -16,7 +16,7 @@ code:
         Dark:   <AUctaLink dark>
       */
 
-      import AUctaLink from '@gov.au/cta-link';
+      import AUctaLink from '@gold.au/cta-link';
 
       <AUctaLink link="/signup" text="Sign up" />
 ---

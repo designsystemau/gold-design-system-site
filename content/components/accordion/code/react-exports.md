@@ -11,7 +11,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUaccordion from '@gov.au/accordion';
+import AUaccordion from '@gold.au/accordion';
 ```
 
 ### [md]pancake import

@@ -13,11 +13,11 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUtagList, {AUtag} from '@gov.au/tags';
+import AUtagList, {AUtag} from '@gold.au/tags';
 ```
 
 ### [md]pancake import
 
 ```jsx
-import AUtagList, {AUtag} from '@gov.au/tags';
+import AUtagList, {AUtag} from '@gold.au/tags';
 ```

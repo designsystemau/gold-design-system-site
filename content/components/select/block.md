@@ -21,7 +21,7 @@ code:
         Dark:   <AUselect block dark options={[
       */
 
-      import AUselect from '@gov.au/select';
+      import AUselect from '@gold.au/select';
 
       <AUselect block id="select1block" options={[
         {

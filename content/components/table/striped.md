@@ -68,7 +68,7 @@ code:
             </table>
         </div>
   - React: |
-        import AUtable, {AUtableResponsiveWrapper} from "@gov.au/table";
+        import AUtable, {AUtableResponsiveWrapper} from "@gold.au/table";
 
         const detailedPopulationData = [
             {location: "New South Wales",              population: "7,670,700", changeYear: "3.1%", changeDecade: "12.9%" },

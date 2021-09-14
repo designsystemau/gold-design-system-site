@@ -12,7 +12,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUheader, { AUheaderBrand } from '@gov.au/header';
+import AUheader, { AUheaderBrand } from '@gold.au/header';
 ```
 
 ### [md]pancake import

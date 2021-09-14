@@ -7,8 +7,8 @@ code:
       <span class="au-hint-text" id="email-hint">We will only use this to respond to your query</span>
       <input type="email" class="au-text-input" id="email" name="email" aria-describedby="email-hint"/>
   - React: |
-      import { AUlabel, AUhintText } from "@gov.au/form";
-      import { AUtextInput } from "@gov.au/text-inputs";
+      import { AUlabel, AUhintText } from "@gold.au/form";
+      import { AUtextInput } from "@gold.au/text-inputs";
 
       <AUlabel text="Email" htmlFor="email" />
       <AUhintText text="We will only use this to respond to your query" id="hint-text"/>

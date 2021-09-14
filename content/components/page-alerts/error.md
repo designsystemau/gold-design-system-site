@@ -27,7 +27,7 @@ code:
         Dark Alt:   <AUpageAlert as='error' dark alt>
       */
 
-      import AUpageAlert from '@gov.au/page-alerts';
+      import AUpageAlert from '@gold.au/page-alerts';
 
       <AUpageAlert as='error'>
         <h3>There is a problem</h3>

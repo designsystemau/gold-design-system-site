@@ -25,7 +25,7 @@ code:
             Alt:   <AUcardHeader alt>
         */
 
-        import AUcard, { AUcardInner, AUcardHeader } from '@gov.au/card';
+        import AUcard, { AUcardInner, AUcardHeader } from '@gold.au/card';
 
         <AUcard className="au-body">
             <AUcardInner>

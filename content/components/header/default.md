@@ -33,7 +33,7 @@ code:
         Dark:   <AUheader dark>
       */
 
-      import AUheader, { AUheaderBrand } from '@gov.au/header';
+      import AUheader, { AUheaderBrand } from '@gold.au/header';
 
       <AUheader>
         <div className="container">

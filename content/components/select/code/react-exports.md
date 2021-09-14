@@ -11,7 +11,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUselect from '@gov.au/select';
+import AUselect from '@gold.au/select';
 ```
 
 ### [md]pancake import
