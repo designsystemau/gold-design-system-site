@@ -8,7 +8,7 @@ buttons:
     type: secondary
 ---
 
-*The Australian Government Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.*
+* GOLD Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.*
 
 The system incorporates the highest usability and accessibility standards and helps deliver a consistent experience for all users, in line with the [Digital Service Standard.](https://www.designsystemau.org/standard/)
 

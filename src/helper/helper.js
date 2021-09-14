@@ -360,11 +360,11 @@ const COMPONENTS = EncodeYAML( Fs.readFileSync( Path.normalize(`${ __dirname }/.
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------
 // CLI
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------
-CFonts.say( 'AU : DS', {
+CFonts.say( 'GOLD DS', {
 	align: 'center',
 	colors: [ 'cyan', 'yellow' ],
 });
-CFonts.say( 'Australian Government Design System', {
+CFonts.say( 'GOLD Design System', {
 	font: 'console',
 	align: 'center',
 	colors: [ 'cyan' ],

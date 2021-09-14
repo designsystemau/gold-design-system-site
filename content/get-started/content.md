@@ -1,6 +1,6 @@
 <img src="/assets/img/artwork-getting-started.png" alt="A man and woman with a sign offering different guidance" width="500"/>
 
-There are many ways to get started with the Australian Government Design System. It all depends on your project's needs and whether you are a developer or a designer (or somewhere in between). Don’t forget to check out our [community](https://community.digital.gov.au/c/designsystem) to see what others are doing!
+There are many ways to get started with the GOLD Design System. It all depends on your project's needs and whether you are a developer or a designer (or somewhere in between). Don’t forget to check out our [community](https://community.digital.gov.au/c/designsystem) to see what others are doing!
 
 There are four ways to get started with the Design System;
 
@@ -19,7 +19,7 @@ Once you have the components in a website we have advanced guides for developers
 
 The advanced guides assume prior knowledge of `npm` and `SASS`. 
 
-Throughout the process you may notice issues, missing features or have ideas for new components. If you would like to contribute or help build the future of the Australian Government Design System you can:
+Throughout the process you may notice issues, missing features or have ideas for new components. If you would like to contribute or help build the future of the GOLD Design System you can:
 
 - [Join the community](/community)
 - [Submit a bug report](https://github.com/designsystemau/design-system-components/issues/new?template=----bug-report.md)

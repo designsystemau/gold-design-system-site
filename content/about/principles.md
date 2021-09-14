@@ -12,7 +12,7 @@ We aim to provide a consistent appearance and behaviour of common components and
 Delivering highly-accessible, highly-usable digital services requires doing the basics simply, clearly and quickly. We aim to respect our users’ time and bandwidth, avoiding anti-patterns or faddish design trends that may delay or disrupt them. This can be beautiful in its own way.
 
 #### Maximise opportunities for reuse
-Favouring a distributed and modular approach we avoid tight coupling with particular technologies. We welcome contributions from across the design and technical communities, regardless of the technology stack or framework. The Australian Government Design System is discretionary - we want to ensure it becomes a national asset, providing an improved default choice of UI for new or redesigned services.
+Favouring a distributed and modular approach we avoid tight coupling with particular technologies. We welcome contributions from across the design and technical communities, regardless of the technology stack or framework. GOLD Design System is discretionary - we want to ensure it becomes a national asset, providing an improved default choice of UI for new or redesigned services.
 
 #### Evidence over opinion
 We believe that consulting with many sources creates better insights, so we aim to involve the Design System community in everything we do. We are open in our processes and research, seeking feedback where possible, documenting decisions and producing rationale for published work.

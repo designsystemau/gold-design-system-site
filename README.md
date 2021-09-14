@@ -1,8 +1,7 @@
-Australian Government Design System - Website
+GOLD Design System - Website
 ====
 
-https://docs.designsystemau.org
-
+[https://gold.designsystemau.org](https://gold.designsystemau.org)
 
 ## Prerequisites
 - [`Node.js`](https://nodejs.org) **8 or higher**, preferably the current LTS version.

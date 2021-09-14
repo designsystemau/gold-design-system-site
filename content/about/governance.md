@@ -7,7 +7,7 @@ Details can be [read here](https://github.com/designsystemau/tsc).
 
 #### Mandate
 
-The Australian Government Design System (design system) is not mandatory for Australian Government agencies.
+GOLD Design System, previously known as Australian Government Design System, is not mandatory for Australian Government agencies.
 
 However, we believe that it is the simplest, fastest and clearest way for agencies undergoing a service redesign to meet several criteria from the mandatory [Digital Service Standard](https://www.designsystemau.org/standard):
 
@@ -20,7 +20,7 @@ Design System AU is the curator of the design system and related communities.
 
 We provide online and offline platforms for the community to discuss, contribute to, adapt and extend the design system and ensure the design system continues to meet the community’s needs. Design System AU is also responsible for:
 
-- Defining and championing [design principles](https://docs.designsystemau.org/about#design-principles) to guide the direction and shape of the product
+- Defining and championing [design principles](https://gold.designsystemau.org/about#design-principles) to guide the direction and shape of the product
 - Managing administrators and moderators of the [design system community forum](https://community.digital.gov.au/c/designsystem) and the associated [Code of Conduct](https://community.digital.gov.au/faq)
 - Managing membership of the [maintainers team](https://github.com/orgs/designsystemau/teams/maintainers)
 

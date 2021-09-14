@@ -29,18 +29,18 @@ const Page = ({
 <meta name="robots" content="index, follow">
 <meta name="author" content="Design System AU">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Australian Government Design System">
+<meta name="twitter:title" content="GOLD Design System, previously known as the Australian Government Design System">
 <meta name="twitter:description" content="Inclusive design, open-source code and shared insights">
-<meta name="twitter:name" content="Australian Government Design System">
-<meta name="twitter:image" content="https://docs.designsystemau.org/assets/favicons/designsystemau-og-img.png">
+<meta name="twitter:name" content="GOLD Design System, previously known as the Australian Government Design System">
+<meta name="twitter:image" content="https://gold.designsystemau.org/assets/favicons/designsystemau-og-img.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="${ pagetitle } - Australian Government Design System">
-<meta property="og:site_name" content="Australian Government Design System">
+<meta property="og:title" content="${ pagetitle } - GOLD Design System, previously known as the Australian Government Design System">
+<meta property="og:site_name" content="GOLD Design System, previously known as the Australian Government Design System">
 <meta property="og:description" content="Inclusive design, open-source code and shared insights">
-<meta property="og:image" content="https://docs.designsystemau.org/assets/favicons">
-<meta property="og:url" content="https://docs.designsystemau.org">
+<meta property="og:image" content="https://gold.designsystemau.org/assets/favicons">
+<meta property="og:url" content="https://gold.designsystemau.org">
 
-<title>${ pagetitle } - Australian Government Design System</title>
+<title>${ pagetitle } - GOLD Design System, previously known as the Australian Government Design System</title>
 
 <link rel="stylesheet" href=${ _relativeURL( '/assets/css/style.css', _ID ) }>
 

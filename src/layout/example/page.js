@@ -52,18 +52,18 @@ const Example = ({
 <meta name="author" content="Digital Transformation Agency">
 <meta name="description" content="${ description }">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Australian Government Design System">
+<meta name="twitter:title" content="GOLD Design System, previously known as the Australian Government Design System">
 <meta name="twitter:description" content="${ description }">
-<meta name="twitter:name" content="Australian Government Design System">
-<meta name="twitter:image" content="https://docs.designsystemau.org/assets/favicons/designsystem.jpg">
+<meta name="twitter:name" content="GOLD Design System, previously known as the Australian Government Design System">
+<meta name="twitter:image" content="https://gold.designsystemau.org/assets/favicons/designsystem.jpg">
 <meta property="og:type" content="website">
-<meta property="og:title" content="${ pagetitle ? pagetitle : componentTitle + ` example` } - Australian Government Design System">
-<meta property="og:site_name" content="Australian Government Design System">
+<meta property="og:title" content="${ pagetitle ? pagetitle : componentTitle + ` example` } - GOLD Design System, previously known as the Australian Government Design System">
+<meta property="og:site_name" content="GOLD Design System, previously known as the Australian Government Design System">
 <meta property="og:description" content="${ description }">
-<meta property="og:image" content="https://docs.designsystemau.org/assets/favicons/designsystem.jpg">
-<meta property="og:url" content="https://docs.designsystemau.org">
+<meta property="og:image" content="https://gold.designsystemau.org/assets/favicons/designsystem.jpg">
+<meta property="og:url" content="https://gold.designsystemau.org">
 
-<title>${ pagetitle ? pagetitle : componentTitle + ` example` } - Australian Government Design System</title>
+<title>${ pagetitle ? pagetitle : componentTitle + ` example` } - GOLD Design System, previously known as the Australian Government Design System</title>
 
 <link rel="stylesheet" href=${ _relativeURL( '/assets/css/example.css', _ID ) } />
 

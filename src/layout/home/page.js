@@ -30,21 +30,21 @@ const Page = ({
 <meta name="theme-color" content="#ffffff">
 <meta name="robots" content="index, follow">
 <meta name="author" content="Digital Transformation Agency">
-<meta name="description" content="The Australian Government Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.">
+<meta name="description" content="The GOLD Design System, previously known as the Australian Government Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Australian Government Design System">
-<meta name="twitter:description" content="The Australian Government Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.">
-<meta name="twitter:name" content="Australian Government Design System">
-<meta name="twitter:image" content="https://docs.designsystemau.org/assets/favicons/designsystem.jpg">
+<meta name="twitter:title" content="GOLD Design System, previously known as the Australian Government Design System">
+<meta name="twitter:description" content="GOLD Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.">
+<meta name="twitter:name" content="GOLD Design System, previously known as the Australian Government Design System">
+<meta name="twitter:image" content="https://gold.designsystemau.org/assets/favicons/designsystem.jpg">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Homepage - Australian Government Design System">
-<meta property="og:site_name" content="Australian Government Design System">
-<meta property="og:description" content="The Australian Government Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.">
-<meta property="og:image" content="https://docs.designsystemau.org/assets/favicons/designsystem.jpg">
-<meta property="og:url" content="https://docs.designsystemau.org">
+<meta property="og:title" content="Homepage - GOLD Design System, previously known as the Australian Government Design System">
+<meta property="og:site_name" content="GOLD Design System, previously known as the Australian Government Design System">
+<meta property="og:description" content="GOLD Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.">
+<meta property="og:image" content="https://gols.designsystemau.org/assets/favicons/designsystem.jpg">
+<meta property="og:url" content="https://gols.designsystemau.org">
 <meta name="google-site-verification" content="rd00twS6xfSXiS4gzkLEBfJ3sRmQXz2YBhkCFWTivzI" />
 
-<title>Homepage - Australian Government Design System</title>
+<title>Homepage - GOLD Design System, previously known as the Australian Government Design System</title>
 
 <link rel="stylesheet" href=${ _relativeURL( '/assets/css/style.css', _ID ) }>
 

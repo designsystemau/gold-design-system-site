@@ -44,7 +44,7 @@ const Furnace = ({ components, _ID, _body, _parseYaml, _relativeURL }) => {
 
 	return (
 		<div className="au-grid">
-			<form id="furnace" className="row furnace" method="POST" action="https://docs.designsystemau.org/furnace/">
+			<form id="furnace" className="row furnace" method="POST" action="https://gold.designsystemau.org/furnace/">
 
 				<div className="col-xs-12 col-sm-8">
 					<div className="furnace__panel">

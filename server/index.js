@@ -57,7 +57,7 @@ const AddFakePassword = ( request, response, next ) => {
 			password !== auth.password
 		) {
 			response.set('WWW-Authenticate', 'Basic realm="Please authenticate"');
-			response.status( 401 ).send(`This is just the staging site. Please check out the real deal at <a href="https://docs.designsystemau.org/">docs.designsystemau.org</a>`);
+			response.status( 401 ).send(`This is just the staging site. Please check out the real deal at <a href="https://gold.designsystemau.org/">gold.designsystemau.org</a>`);
 		}
 		else {
 			return next();

@@ -34,7 +34,7 @@ code:
             <div class="col-sm-12">
               <div class="au-footer__end">
                 <p>Footer text</p>
-                <img class="au-responsive-media-img" src="https://docs.designsystemau.org/assets/img/placeholder/157X80.png" alt="Placeholder image">
+                <img class="au-responsive-media-img" src="https://gold.designsystemau.org/assets/img/placeholder/157X80.png" alt="Placeholder image">
                 <p><small>&copy; Commonwealth of Australia, <a href="https://github.com/designsystemau/design-system-components/blob/master/LICENSE.md" rel="external license">MIT licensed</a></small></p>
               </div>
             </div>
@@ -77,7 +77,7 @@ code:
               <div className="col-sm-12">
                 <AUfooterEnd>
                   <p>Footer text</p>
-                  <img className="au-responsive-media-img" src="https://docs.designsystemau.org/assets/img/placeholder/157X80.png" alt="Placeholder image" />
+                  <img className="au-responsive-media-img" src="https://gold.designsystemau.org/assets/img/placeholder/157X80.png" alt="Placeholder image" />
                   <p><small>&copy; Commonwealth of Australia, <a href="https://github.com/designsystemau/design-system-components/blob/master/LICENSE.md" rel="external license">MIT licensed</a></small></p>
                 </AUfooterEnd>
               </div>
