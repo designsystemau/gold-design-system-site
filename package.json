@@ -1,7 +1,8 @@
 {
-	"name": "designsystem",
+	"name": "@gold.au/site",
+	"private": true,
 	"version": "1.0.1",
-	"description": "GOLD Design System docs website.",
+	"description": "The GOLD Design System, previously known as the Australian Government Design System docs website.",
 	"scripts": {
 		"docs": "cuttlebelle docs",
 		"prebuild:pancake": "pancake",
@@ -28,14 +29,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/designsystemau/design-system-site"
+		"url": "https://github.com/designsystemau/gold-design-system-site"
 	},
 	"author": {
 		"name": "Design System AU",
 		"email": "maintainers@designsystemau.org",
 		"url": "https://designsystemau.org/"
 	},
-	"homepage": "https://github.com/designsystemau/design-system-site",
+	"homepage": "https://gold.designsystemau.org",
 	"license": "MIT",
 	"dependencies": {
 		"@gov.au/accordion": "latest",
