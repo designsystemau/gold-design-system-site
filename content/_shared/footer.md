@@ -5,9 +5,7 @@ mainlist:
   - text: GitHub
     link: https://github.com/designsystemau/gold-design-system/
   - text: Slack
-    link: https://govau-guides.slack.com/
-  - text: Roadmap
-    link: /roadmap
+    link: https://designsystemau-slack.herokuapp.com/
   - text: About
     link: /about
 
