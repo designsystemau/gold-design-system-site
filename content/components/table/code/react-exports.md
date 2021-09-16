@@ -19,7 +19,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUtable, {AUtableResponsiveWrapper, AUtableCaption, AUtableCell, AUtableHead, AUtableHeader, AUtableBody, AUtableRow} from '@gov.au/table';
+import AUtable, {AUtableResponsiveWrapper, AUtableCaption, AUtableCell, AUtableHead, AUtableHeader, AUtableBody, AUtableRow} from '@gold.au/table';
 ```
 
 ### [md]pancake import

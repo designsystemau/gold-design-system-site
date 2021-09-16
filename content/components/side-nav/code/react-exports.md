@@ -11,7 +11,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUsideNav from '@gov.au/side-nav';
+import AUsideNav from '@gold.au/side-nav';
 ```
 
 ### [md]pancake import

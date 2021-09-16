@@ -5,7 +5,7 @@ layout: section
 ## React Usage
 
 ```jsx
-import AUlinkList from '@gov.au/link-list';
+import AUlinkList from '@gold.au/link-list';
 
 <AUlinkList items={[
   {

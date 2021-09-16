@@ -10,7 +10,7 @@ code:
             </div>
         </div>
   - React: |
-        import AUcard, { AUcardInner } from '@gov.au/card';
+        import AUcard, { AUcardInner } from '@gold.au/card';
 
         <AUcard className="au-body">
             <img className="au-responsive-media-img" src="https://gold.designsystemau.org/assets/img/placeholder/600X260.png" alt="" />

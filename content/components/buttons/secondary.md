@@ -17,7 +17,7 @@ code:
         Dark:   <AUbutton as='secondary' dark>
       */
 
-      import AUbutton from '@gov.au/buttons';
+      import AUbutton from '@gold.au/buttons';
 
       <AUbutton as='secondary'>
         Secondary button

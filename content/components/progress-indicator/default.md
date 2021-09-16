@@ -35,7 +35,7 @@ code:
         Dark:   <AUprogressIndicator dark items={[
       */
 
-      import AUprogressIndicator from '@gov.au/progress-indicator';
+      import AUprogressIndicator from '@gold.au/progress-indicator';
 
       <AUprogressIndicator items={[
         {

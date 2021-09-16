@@ -12,7 +12,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUbutton from '@gov.au/progress-indicator';
+import AUbutton from '@gold.au/progress-indicator';
 ```
 
 ### [md]pancake import

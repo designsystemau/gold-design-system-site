@@ -16,7 +16,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import { AUfieldset, AUlegend, AUformGroup, AUlabel, AUhintText, AUerrorText } from '@gov.au/form';
+import { AUfieldset, AUlegend, AUformGroup, AUlabel, AUhintText, AUerrorText } from '@gold.au/form';
 ```
 
 ### [md]pancake import

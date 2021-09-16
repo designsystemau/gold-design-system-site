@@ -5,8 +5,8 @@ layout: section
 ## React Usage
 
 ```jsx
-import { AUfieldset, AUlegend } from '@gov.au/form';
-import { AUcheckbox } from '@gov.au/control-input';
+import { AUfieldset, AUlegend } from '@gold.au/form';
+import { AUcheckbox } from '@gold.au/control-input';
 
 <AUfieldset>
     <AUlegend>

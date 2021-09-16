@@ -11,7 +11,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUsearchbox from '@gov.au/searchbox';
+import AUsearchbox from '@gold.au/searchbox';
 ```
 
 ### [md]pancake import

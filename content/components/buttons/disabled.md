@@ -26,7 +26,7 @@ code:
         Dark:   <AUbutton disabled dark>
       */
 
-      import AUbutton from '@gov.au/buttons';
+      import AUbutton from '@gold.au/buttons';
 
       <AUbutton disabled>
         Disabled button

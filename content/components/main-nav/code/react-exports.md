@@ -12,7 +12,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUmainNav, { AUmainNavContent } from '@gov.au/main-nav';
+import AUmainNav, { AUmainNavContent } from '@gold.au/main-nav';
 ```
 
 ### [md]pancake import

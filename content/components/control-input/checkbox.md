@@ -22,7 +22,7 @@ code:
         Dark:   <AUcheckbox dark>
       */
 
-      import { AUcheckbox } from '@gov.au/control-input';
+      import { AUcheckbox } from '@gold.au/control-input';
 
       <AUcheckbox label="Phone" name="checkbox-ex" id="cb-phone"/>
       <AUcheckbox label="Tablet" name="checkbox-ex" id="cb-tablet" defaultChecked />

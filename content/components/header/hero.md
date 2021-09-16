@@ -33,7 +33,7 @@ code:
         Dark:   <AUheader hero dark>
       */
 
-      import AUheader, { AUheaderBrand } from '@gov.au/header';
+      import AUheader, { AUheaderBrand } from '@gold.au/header';
 
       <AUheader hero>
         <div className="container-fluid">

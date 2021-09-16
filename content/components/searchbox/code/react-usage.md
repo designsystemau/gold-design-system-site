@@ -5,7 +5,7 @@ layout: section
 ## React Usage
 
 ```jsx
-import AUsearchbox from '@gov.au/searchbox';
+import AUsearchbox from '@gold.au/searchbox';
 
 <AUsearchbox
     aria-label="sitewide"

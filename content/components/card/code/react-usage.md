@@ -5,7 +5,7 @@ layout: section
 ## React Usage
 
 ```jsx
-import AUcard, { AUcardInner, AUcardDivider, AUcardLink, AUcardHeader, AUcardTitle, AUcardFooter } from '@gov.au/card';
+import AUcard, { AUcardInner, AUcardDivider, AUcardLink, AUcardHeader, AUcardTitle, AUcardFooter } from '@gold.au/card';
 
 <AUcard className="au-body">
     <img className="au-responsive-media-img" src="https://gold.designsystemau.org/assets/img/placeholder/600X260.png"  alt=""/>

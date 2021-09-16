@@ -23,7 +23,7 @@ code:
         Dark Alt:   <AUpageAlert as='warning' dark alt>
       */
 
-      import AUpageAlert from '@gov.au/page-alerts';
+      import AUpageAlert from '@gold.au/page-alerts';
 
       <AUpageAlert as='warning'>
         <h3>Browser out of date</h3>

@@ -11,7 +11,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUbuttons from '@gov.au/buttons';
+import AUbuttons from '@gold.au/buttons';
 ```
 
 ### [md]pancake import

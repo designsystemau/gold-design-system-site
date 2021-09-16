@@ -18,7 +18,7 @@ code:
         Dark:   <AUtextInput block dark>
       */
 
-      import AUtextInput from '@gov.au/text-inputs';
+      import AUtextInput from '@gold.au/text-inputs';
 
       <label htmlFor="textarea" block >label text</label>
       <AUtextInput as="textarea" id="textarea" block />

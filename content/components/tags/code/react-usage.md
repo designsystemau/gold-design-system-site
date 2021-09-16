@@ -5,7 +5,7 @@ layout: section
 ## React Usage
 
 ```jsx
-import AUtagList, { AUtag } from '@gov.au/tags';
+import AUtagList, { AUtag } from '@gold.au/tags';
 
 {/* Single tag component */}
 <AUtag text="Single tag" />

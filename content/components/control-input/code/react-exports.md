@@ -12,7 +12,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import { Checkbox, Radio } from '@gov.au/control-input';
+import { Checkbox, Radio } from '@gold.au/control-input';
 ```
 
 ### [md]pancake import

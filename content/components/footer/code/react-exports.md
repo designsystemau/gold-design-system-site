@@ -13,7 +13,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUfooter, { AUfooterNav, AUfooterEnd } from '@gov.au/footer';
+import AUfooter, { AUfooterNav, AUfooterEnd } from '@gold.au/footer';
 ```
 
 ### [md]pancake import

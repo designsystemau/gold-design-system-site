@@ -19,7 +19,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUcard, { AUcardInner, AUcardDivider, AUcardLink, AUcardHeader, AUcardTitle, AUcardFooter } from '@gov.au/card';
+import AUcard, { AUcardInner, AUcardDivider, AUcardLink, AUcardHeader, AUcardTitle, AUcardFooter } from '@gold.au/card';
 
 ```
 

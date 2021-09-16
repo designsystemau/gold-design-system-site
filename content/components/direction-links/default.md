@@ -27,7 +27,7 @@ code:
         Dark:   <AUdirectionLink dark>
       */
 
-      import AUdirectionLink from '@gov.au/direction-links';
+      import AUdirectionLink from '@gold.au/direction-links';
 
       <AUdirectionLink link="#url" text="Back" direction="left" />
       <AUdirectionLink link="#url" text="Next" />

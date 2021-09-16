@@ -11,7 +11,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUctaLink from '@gov.au/cta-link';
+import AUctaLink from '@gold.au/cta-link';
 ```
 
 ### [md]pancake import

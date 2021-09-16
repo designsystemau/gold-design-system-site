@@ -33,7 +33,7 @@ code:
               https://www.paulirish.com/2009/avoiding-the-fouc-v3/
       */
 
-      import AUaccordion from '@gov.au/accordion';
+      import AUaccordion from '@gold.au/accordion';
 
       <AUaccordion header="Accordion title">
         Here <a href="#url">is</a> some accordion content

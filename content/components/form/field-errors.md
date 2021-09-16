@@ -7,8 +7,8 @@ code:
         <span class="au-error-text" id="email-error-text">Enter an email address in the correct format, like name@example.com</span>
         <input type="email" class="au-text-input au-text-input--invalid" id="email" aria-invalid="true" aria-describedby="email-error-text" />
   - React: |
-        import { AUlabel, AUerrorText } from '@gov.au/form';
-        import { AUtextInput } from '@gov.au/text-inputs';
+        import { AUlabel, AUerrorText } from '@gold.au/form';
+        import { AUtextInput } from '@gold.au/text-inputs';
 
         <AUlabel text="Email" htmlFor="email" />
         <AUerrorText type="email" text="Enter an email address in the correct format, like name@example.com" id="email -error" />

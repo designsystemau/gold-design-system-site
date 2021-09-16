@@ -20,7 +20,7 @@ code:
         Checkbox:  <AUcheckbox small>
       */
 
-      import { AUradio } from '@gov.au/control-input';
+      import { AUradio } from '@gold.au/control-input';
 
       <AUradio label="Phone"  name="radio-ex" id="cb-phone-sm" small />
       <AUradio label="Tablet" name="radio-ex" id="cb-tablet-sm" small defaultChecked />

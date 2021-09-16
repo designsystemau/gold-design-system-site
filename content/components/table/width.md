@@ -43,7 +43,7 @@ code:
             </table>
         </div>
   - React: |
-        import AUtable, {AUtableResponsiveWrapper} from "@gov.au/table";
+        import AUtable, {AUtableResponsiveWrapper} from "@gold.au/table";
 
         const simpleHeaders = [
             {title: "Location",                    key: "location",   width: '50'},

@@ -11,7 +11,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUpageAlert from '@gov.au/page-alerts';
+import AUpageAlert from '@gold.au/page-alerts';
 ```
 
 ### [md]pancake import

@@ -11,7 +11,7 @@ layout: section
 ### [md]node_modules import
 
 ```jsx
-import AUlinkList from '@gov.au/link-list';
+import AUlinkList from '@gold.au/link-list';
 ```
 
 ### [md]pancake import

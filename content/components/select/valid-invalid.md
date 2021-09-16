@@ -22,7 +22,7 @@ code:
         Invalid:   <AUselect status="invalid" options={[
       */
 
-      import AUselect from '@gov.au/select';
+      import AUselect from '@gold.au/select';
 
       <AUselect valid id="select1block" options={[
         {
