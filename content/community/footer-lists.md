@@ -10,10 +10,10 @@ lists:
 
   - heading: Help with planning
     links:
-      - text: Community support
-        link: https://community.digital.gov.au/c/designsystem/general-issues
-      - text: Roadmap discussions
-        link: https://community.digital.gov.au/t/roadmap-discussion
+      - text: Open an RFC
+        link: https://github.com/designsystemau/RFCs
+      - text: Join TSC as a Maintainer and vote on how to shape the roadmap 
+        link: https://github.com/designsystemau/TSC
 
   - heading: Help with code
     links:

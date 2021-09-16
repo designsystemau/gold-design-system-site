@@ -2,14 +2,10 @@
 layout: structure/footer
 headline: Community
 mainlist:
-  - text: Forums
-    link: https://community.digital.gov.au/c/designsystem
   - text: GitHub
-    link: https://github.com/designsystemau/design-system-components/
+    link: https://github.com/designsystemau/gold-design-system/
   - text: Slack
-    link: https://govau-guides.slack.com/
-  - text: Roadmap
-    link: /roadmap
+    link: https://designsystemau-slack.herokuapp.com/
   - text: About
     link: /about
 
