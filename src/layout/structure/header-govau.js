@@ -11,17 +11,17 @@ const HeaderGovAU = ({ publisher, publisher_url, right_title, right_content }) =
 		<div className="container-fluid">
 			<div className="row headergovau__bar">
 				<div className="col-md-12">
-					<button
-						className="headergovau__button js-header-accordion au-accordion--closed"
-						aria-controls="headergovau-accordion"
-						aria-expanded="false"
-						onClick="return AU.accordion.Toggle( this )"
-					>
-						<span className="headergovau__text">
-							<span className="headergovau__title">Australian Government&nbsp;</span>
-							<span className="headergovau__official">official website</span>
-						</span>
-					</button>
+					{/*<button*/}
+					{/*	className="headergovau__button js-header-accordion au-accordion--closed"*/}
+					{/*	aria-controls="headergovau-accordion"*/}
+					{/*	aria-expanded="false"*/}
+					{/*	onClick="return AU.accordion.Toggle( this )"*/}
+					{/*>*/}
+					{/*	<span className="headergovau__text">*/}
+					{/*		<span className="headergovau__title">Australian Government&nbsp;</span>*/}
+					{/*		<span className="headergovau__official">official website</span>*/}
+					{/*	</span>*/}
+					{/*</button>*/}
 					<a href={ publisher_url } className="headergovau__publisher">
 						{ publisher }
 					</a>

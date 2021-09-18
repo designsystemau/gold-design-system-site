@@ -73,16 +73,19 @@ const ComponentFooter = ({ _ID, _parseYaml, _relativeURL, _parents }) => {
 					<h3>Feedback</h3>
 					<ul>
 						<li>
-							<a className="icon icon--community" href={ `https://community.digital.gov.au/t/${ MODULES[ module ].ID }` }>Community discussion</a>
+							<a className="icon icon--community" href={ 'https://designsystemau-slack.herokuapp.com/' }>Discuss on Slack</a>
 						</li>
+						{/*<li>*/}
+						{/*	<a className="icon icon--community" href={ `https://community.digital.gov.au/t/${ MODULES[ module ].ID }` }>Community discussion</a>*/}
+						{/*</li>*/}
 						<li>
-							<a className="icon icon--github" href="https://github.com/designsystemau/design-system-components/issues/new">Report an issue</a>
+							<a className="icon icon--github" href="https://github.com/designsystemau/gold-design-system/issues/new">Report an issue</a>
 						</li>
 						{
 							MODULES[ module ].status === 'published'
 								?
 									<li>
-										<a className="icon icon--github" href={`https://github.com/designsystemau/design-system-components/tree/master/packages/${ MODULES[ module ].ID }`}>
+										<a className="icon icon--github" href={`https://github.com/designsystemau/gold-design-system/tree/master/packages/${ MODULES[ module ].ID }`}>
 											Code Contribution
 										</a>
 									</li>
