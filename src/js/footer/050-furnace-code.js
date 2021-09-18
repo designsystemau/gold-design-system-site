@@ -46,7 +46,7 @@ function ToggleNPM( $this ) {
 	var component = input.getAttribute( 'value' );
 
 	var content = furnaceNPM.innerHTML;
-	component =  " @gov.au/" + component;
+	component =  " @gold.au/" + component;
 
 	if( content.indexOf( component ) < 0 ) {
 		furnaceNPM.innerHTML += component;

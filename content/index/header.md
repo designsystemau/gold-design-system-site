@@ -1,7 +1,7 @@
 ---
 layout: structure/header
-title: GOLD Design System
 title_badge: beta
+logo_type: main
 mainmenu: /_shared/mainmenu.md
 ---
 

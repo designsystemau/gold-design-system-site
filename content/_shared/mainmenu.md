@@ -21,7 +21,7 @@ navigation:
     - alignment: right
       items:
         - text: GitHub
-          link: https://github.com/designsystemau/design-system-components/
+          link: https://github.com/designsystemau/gold-design-system/
         - text: Download
           link: /download
 ---
