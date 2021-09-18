@@ -7,7 +7,7 @@ import PropTypes                   from 'prop-types';
 /**
  * The header component
  */
-const Header = ({ title, title_badge, logo_type = 'main', mainmenu, header_govau, _relativeURL, _ID, _pages, _body }) => {
+const Header = ({ title = 'GOLD Design System', title_badge, logo_type = 'main', mainmenu, header_govau, _relativeURL, _ID, _pages, _body }) => {
 	let logoPath = '/assets/img/dsau-logo.svg';
 	if (logo_type === 'horizontal') {
 		logoPath =  '/assets/img/dsau-logo-horizontal.svg';

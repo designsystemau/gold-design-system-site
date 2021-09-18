@@ -243,7 +243,7 @@ const FetchDownloads = ( modules ) => {
  */
 const FetchModules = () => {
 	return new Promise( ( resolve, reject ) => {
-		Fetch(`https://raw.githubusercontent.com/govau/design-system-components/master/auds.json?${ Math.floor( new Date().getTime() / 1000 ) }`, { method: 'get' })
+		Fetch(`https://raw.githubusercontent.com/designsystemau/gold-design-system/master/auds.json?${ Math.floor( new Date().getTime() / 1000 ) }`, { method: 'get' })
 			.catch( error => reject( error ) )
 			.then( response => response.json() )
 			.then( thisData => {
@@ -262,7 +262,7 @@ const FetchModules = () => {
  */
 const FetchStars = repo => {
 	return new Promise( ( resolve, reject ) => {
-		Fetch(`https://api.github.com/repos/govau/${ repo }?${ Math.floor( new Date().getTime() / 1000 ) }`, { method: 'get' })
+		Fetch(`https://api.github.com/repos/designsystemau/${ repo }?${ Math.floor( new Date().getTime() / 1000 ) }`, { method: 'get' })
 			.catch( error => reject( error ) )
 			.then( response => response.json() )
 			.then( response => {
