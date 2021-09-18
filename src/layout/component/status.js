@@ -76,7 +76,7 @@ const ComponentStatus = ({ module, _ID, _relativeURL, _parseYaml }) => {
 					?
 						<Fragment>
 							<dt>Install</dt>
-							<dd><a href={`https://www.npmjs.com/package/@gov.au/${ module }`}>{`npm i @gov.au/${ module }`}</a></dd>
+							<dd><a href={`https://www.npmjs.com/package/@gold.au/${ module }`}>{`npm i @gold.au/${ module }`}</a></dd>
 						</Fragment>
 					: null
 				}

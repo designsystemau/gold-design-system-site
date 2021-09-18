@@ -7,7 +7,7 @@ import React from 'react';
 
 
 /**
- * The gov.au footer
+ * The gold.au footer
  */
 const Footer = ({ headline, legallist, mainlist, _body, _ID, _relativeURL }) => (
 	<AUfooter dark className="footer au-body au-body--dark">

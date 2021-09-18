@@ -62,7 +62,7 @@ const EncodeYAML = ( yaml ) => YAML.load( yaml, warning => console.error( warnin
  *
  * @return {string}      - The cleaned name
  */
-const CleanName = ( name ) => name.replace( '@gov.au/', '' );
+const CleanName = ( name ) => name.replace( '@gold.au/', '' );
 
 
 /**
@@ -142,9 +142,9 @@ const GenerateComponents = ( auds, components ) => {
 		components[ name ].ID = CleanName( AUDS[ module ].name );
 		components[ name ].version = AUDS[ module ].version;
 		components[ name ].dependencies = Object.keys( AUDS[ module ].dependencies ).map( dep => CleanName( dep ) );
-		components[ name ].hasSass = AUDS[ module ].settings.plugins.includes('@gov.au/pancake-sass');
-		components[ name ].hasJs = AUDS[ module ].settings.plugins.includes('@gov.au/pancake-js');
-		components[ name ].hasReact = AUDS[ module ].settings.plugins.includes('@gov.au/pancake-react');
+		components[ name ].hasSass = AUDS[ module ].settings.plugins.includes('@gold.au/pancake-sass');
+		components[ name ].hasJs = AUDS[ module ].settings.plugins.includes('@gold.au/pancake-js');
+		components[ name ].hasReact = AUDS[ module ].settings.plugins.includes('@gold.au/pancake-react');
 		// components[ name ].contributors = PGK.contributors;
 	}
 
@@ -290,12 +290,12 @@ const WriteStats = async ( ) => {
 		};
 
 		const downloadPancakes = await FetchDownloads([
-			'@gov.au/pancake',
-			'@gov.au/pancake-js',
-			'@gov.au/pancake-json',
-			'@gov.au/pancake-react',
-			'@gov.au/pancake-sass',
-			'@gov.au/syrup',
+			'@gold.au/pancake',
+			'@gold.au/pancake-js',
+			'@gold.au/pancake-json',
+			'@gold.au/pancake-react',
+			'@gold.au/pancake-sass',
+			'@gold.au/syrup',
 		]);
 
 		Tick('Got pancake downloads data');
