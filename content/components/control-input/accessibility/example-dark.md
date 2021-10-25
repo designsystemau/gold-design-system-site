@@ -10,7 +10,7 @@
 </div>
 <p>
   <div class="au-control-input au-control-input--dark">
-    <input class="au-control-input__input" type="radio" name="radio-ex" id="radio-phone-dark">
+    <input class="au-control-input__input" type="radio" name="radio-ex-dark" id="radio-phone-dark">
     <label class="au-control-input__text" for="radio-phone-dark">Phone</label>
   </div>
   <div class="au-control-input au-control-input--dark">
