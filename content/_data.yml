@@ -2,46 +2,46 @@
 # THE `pancake` and `auds` FIELDS WILL BE OVERWRITTEN
 
 pancake:
-  downloads: 262
+  downloads: 3773
   modules:
-    '@gold.au/pancake': 60
-    '@gold.au/pancake-js': 20
-    '@gold.au/pancake-json': 59
-    '@gold.au/pancake-react': 38
-    '@gold.au/pancake-sass': 56
-    '@gold.au/syrup': 29
+    '@gold.au/pancake': 791
+    '@gold.au/pancake-js': 573
+    '@gold.au/pancake-json': 773
+    '@gold.au/pancake-react': 703
+    '@gold.au/pancake-sass': 785
+    '@gold.au/syrup': 148
   stars: 2
 auds:
-  downloads: 1532
+  downloads: 10247
   modules:
-    '@gold.au/accordion': 48
-    '@gold.au/animate': 55
-    '@gold.au/body': 53
-    '@gold.au/breadcrumbs': 48
-    '@gold.au/buttons': 52
-    '@gold.au/callout': 49
-    '@gold.au/card': 48
-    '@gold.au/control-input': 50
-    '@gold.au/core': 117
-    '@gold.au/cta-link': 48
-    '@gold.au/direction-links': 47
-    '@gold.au/footer': 48
-    '@gold.au/form': 49
-    '@gold.au/grid-12': 47
-    '@gold.au/header': 47
-    '@gold.au/headings': 46
-    '@gold.au/inpage-nav': 47
-    '@gold.au/keyword-list': 49
-    '@gold.au/link-list': 54
-    '@gold.au/main-nav': 49
-    '@gold.au/page-alerts': 47
-    '@gold.au/progress-indicator': 47
-    '@gold.au/responsive-media': 48
-    '@gold.au/searchbox': 49
-    '@gold.au/select': 47
-    '@gold.au/side-nav': 48
-    '@gold.au/skip-link': 47
-    '@gold.au/table': 47
-    '@gold.au/tags': 48
-    '@gold.au/text-inputs': 53
+    '@gold.au/accordion': 210
+    '@gold.au/animate': 598
+    '@gold.au/body': 595
+    '@gold.au/breadcrumbs': 333
+    '@gold.au/buttons': 401
+    '@gold.au/callout': 209
+    '@gold.au/card': 208
+    '@gold.au/control-input': 213
+    '@gold.au/core': 822
+    '@gold.au/cta-link': 248
+    '@gold.au/direction-links': 213
+    '@gold.au/footer': 545
+    '@gold.au/form': 210
+    '@gold.au/grid-12': 610
+    '@gold.au/header': 553
+    '@gold.au/headings': 340
+    '@gold.au/inpage-nav': 202
+    '@gold.au/keyword-list': 249
+    '@gold.au/link-list': 634
+    '@gold.au/main-nav': 560
+    '@gold.au/page-alerts': 245
+    '@gold.au/progress-indicator': 203
+    '@gold.au/responsive-media': 210
+    '@gold.au/searchbox': 206
+    '@gold.au/select': 240
+    '@gold.au/side-nav': 202
+    '@gold.au/skip-link': 200
+    '@gold.au/table': 201
+    '@gold.au/tags': 216
+    '@gold.au/text-inputs': 371
   stars: 0

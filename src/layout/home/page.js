@@ -35,13 +35,13 @@ const Page = ({
 <meta name="twitter:title" content="GOLD Design System, previously known as the Australian Government Design System">
 <meta name="twitter:description" content="GOLD Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.">
 <meta name="twitter:name" content="GOLD Design System, previously known as the Australian Government Design System">
-<meta name="twitter:image" content="https://gold.designsystemau.org/assets/favicons/designsystem.jpg">
+<meta name="twitter:image" content="https://gold.designsystemau.org/assets/favicons/designsystemau-og-img.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Homepage - GOLD Design System, previously known as the Australian Government Design System">
 <meta property="og:site_name" content="GOLD Design System, previously known as the Australian Government Design System">
 <meta property="og:description" content="GOLD Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.">
-<meta property="og:image" content="https://gols.designsystemau.org/assets/favicons/designsystem.jpg">
-<meta property="og:url" content="https://gols.designsystemau.org">
+<meta property="og:image" content="https://gold.designsystemau.org/assets/favicons/designsystemau-og-img.png">
+<meta property="og:url" content="https://gold.designsystemau.org">
 <meta name="google-site-verification" content="rd00twS6xfSXiS4gzkLEBfJ3sRmQXz2YBhkCFWTivzI" />
 
 <title>Homepage - GOLD Design System, previously known as the Australian Government Design System</title>
