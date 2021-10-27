@@ -41,7 +41,7 @@ const Page = ({
 
 <title>${ pagetitle } - GOLD Design System, previously known as the Australian Government Design System</title>
 
-<base href="##url##">
+<base href="/404/">
 
 <link rel="stylesheet" href="/assets/css/style.css">
 
