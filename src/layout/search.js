@@ -8,7 +8,15 @@ import GetData from "./../helper/getData";
  */
 const Searchbox = ({ _relativeURL, _ID, _pages, _parseYaml }) => {
 	const data = GetData({ yaml: _parseYaml, object: true });
-	const suggestions = Object.values(data).map((m) => m.name).filter(n => n).sort();
+	const terms = new Set();
+
+	Object.values(data).forEach((m) => {
+		if (m.name) terms.add(m.name);
+		if (m.tags) m.tags.forEach(t => terms.add(t));
+		if (m.metatags) m.metatags.forEach(t => terms.add(t));
+	});
+
+	const suggestions = [...terms].sort();
 
 	return (
 		<>

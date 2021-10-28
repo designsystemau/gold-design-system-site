@@ -26,7 +26,7 @@
 
 			return node;
 		});
-		// Container
+
 		const container = document
 			.querySelector("template[data-result-list]")
 			.content.firstElementChild.cloneNode(true);
