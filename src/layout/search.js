@@ -22,6 +22,7 @@ const Searchbox = ({ label, placeholder, _relativeURL, _ID, _pages }) => (
 			type: 'submit'
 		}}
 		action={`${ _relativeURL( '/components/search/', _ID ) }/`}
+		data-search-control
 		method="get"
 	/>
 );
