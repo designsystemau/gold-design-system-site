@@ -6,7 +6,7 @@ import GetData from "./../../helper/getData";
 
 const MakeSearchIndex = (_parseYaml) => {
 	const data = GetData({ yaml: _parseYaml, object: true });
-	return Object.values(data).map((module) => ({
+	return Object.values(data).filter(m => m.name).map((module) => ({
 		ID: module.ID,
 		name: module.name,
 		version: module.version,
@@ -39,9 +39,7 @@ const Search = ({ headline, link, _parseYaml }) => {
 					<span
 						className="searchpage__headline__heading__searchstring"
 						data-search-term
-					>
-						...
-					</span>
+					/>
 				</AUheading>
 				<a className="searchpage__headline__link" href={link.link}>
 					{link.text}
@@ -53,11 +51,39 @@ const Search = ({ headline, link, _parseYaml }) => {
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(searchData) }}
 			/>
 			<div data-search-results></div>
+
+			<template data-result-section>
+				<section className="searchpage__section released">
+					<h2 className="searchpage__section__headline au-display-md">
+						Released
+						<span
+							className="searchpage__section__headline__found"
+							data-sr-count
+						/>
+					</h2>
+					<ul className="searchpage__section__listing au-card-list au-card-list--matchheight row" />
+				</section>
+			</template>
+
 			<template data-search-result-tpl>
-				<div>
-					<span data-sr-name style={{ fontWeight: 'bold'}} />
-					<span data-sr-version />
-				</div>
+				<li className="col-xs-6 col-sm-3">
+					<div className="au-card au-body au-card--shadow au-card--clickable">
+						<div className="au-responsive-media-img au-card__fullwidth">
+							<svg role="img" title="###TITLE###">
+								<title>###TITLE###</title>
+								<use xlinkHref="###URL###" />
+							</svg>
+						</div>
+
+						<div className="au-card__inner">
+							<h3 className="au-card__title">
+								<a className="au-card--clickable__link" href="#">
+									Title of article
+								</a>
+							</h3>
+						</div>
+					</div>
+				</li>
 			</template>
 
 			<script src="/assets/js/fuse.min.js" type="text/javascript"></script>
@@ -76,3 +102,10 @@ Search.propTypes = {
 Search.defaultProps = {};
 
 export default Search;
+
+// {[
+// 	{ type: 'svg', title: '##name##', svg: '##svg##', description: '##description##', fullwidth: true },
+// 	{ type: 'heading', headingSize: '3', text: '##name##', }
+// ]}
+// link="##url##"
+// appearance="shadow"

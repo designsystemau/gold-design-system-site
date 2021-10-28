@@ -11,14 +11,24 @@
 		const template = document.querySelector("template[data-search-result-tpl]");
 		const children = results.map((res) => {
 			const node = template.content.firstElementChild.cloneNode(true);
-			node.querySelector("[data-sr-name]").textContent = res.name;
-			node.querySelector("[data-sr-version]").textContent = res.version;
+			const link = node.querySelector("a")
+			link.textContent = res.name;
+			link.href = res.url;
+
+			// Fill the
+			node.querySelector('svg').setAttribute('title' , res.description);
+			node.querySelector('svg title').textContent = res.description;
+			node.querySelector('svg use').setAttribute('xlink:href', `/assets/svg/map.svg#${res.ID}`);
+
 			return node;
 		});
 
+		const container = document.querySelector('template[data-result-section]').content.firstElementChild.cloneNode(true);
+		container.querySelector('ul').replaceChildren(...children);
+
 		document
 			.querySelector("[data-search-results]")
-			.replaceChildren(...children);
+			.replaceChildren(container);
 	}
 	function performSearch(searchTerm) {
 		const el = document.querySelector("[data-search-index]");
