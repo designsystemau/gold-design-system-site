@@ -1,7 +1,7 @@
-import AUsearchBox from "../_auds/layout/searchbox";
-import React from "react";
+import AUsearchBox from '../_auds/layout/searchbox';
+import React from 'react';
 
-import GetData from "./../helper/getData";
+import GetData from './../helper/getData';
 
 /**
  * The Searchbox component
@@ -12,8 +12,8 @@ const Searchbox = ({ _relativeURL, _ID, _pages, _parseYaml }) => {
 
 	Object.values(data).forEach((m) => {
 		if (m.name) terms.add(m.name);
-		if (m.tags) m.tags.forEach(t => terms.add(t));
-		if (m.metatags) m.metatags.forEach(t => terms.add(t));
+		if (m.tags) m.tags.forEach((t) => terms.add(t));
+		if (m.metatags) m.metatags.forEach((t) => terms.add(t));
 	});
 
 	const suggestions = [...terms].sort();
@@ -27,15 +27,15 @@ const Searchbox = ({ _relativeURL, _ID, _pages, _parseYaml }) => {
 				responsive
 				inputProps={{
 					defaultValue: _pages[_ID].searchvalue && _pages[_ID].searchvalue,
-					placeholder: "e.g. body",
-					name: "s",
-					list: "search-suggestions",
+					placeholder: 'e.g. body',
+					name: 's',
+					list: 'search-suggestions',
 				}}
 				btnProps={{
-					as: "secondary",
-					type: "submit",
+					as: 'secondary',
+					type: 'submit',
 				}}
-				action={`${_relativeURL("/components/search/", _ID)}/`}
+				action={`${_relativeURL('/components/search/', _ID)}/`}
 				data-search-control
 				method="get"
 			/>

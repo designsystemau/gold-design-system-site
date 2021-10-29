@@ -1,10 +1,10 @@
-import AUheading from "../../_auds/layout/headings";
-import React from "react";
-import PropTypes from "prop-types";
+import AUheading from '../../_auds/layout/headings';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import AUcard from "../card";
+import AUcard from '../card';
 
-import GetData from "./../../helper/getData";
+import GetData from './../../helper/getData';
 
 const MakeSearchIndex = (_parseYaml) => {
 	const data = GetData({ yaml: _parseYaml, object: true });
@@ -50,7 +50,7 @@ const Search = ({ headline, link, _parseYaml }) => {
 				</a>
 			</div>
 			<div
-				style={{ display: "none" }}
+				style={{ display: 'none' }}
 				data-search-index
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(searchData) }}
 			/>
@@ -71,13 +71,13 @@ const Search = ({ headline, link, _parseYaml }) => {
 					<AUcard
 						rows={[
 							{
-								type: "svg",
-								title: "##name##",
-								svg: "##svg##",
-								description: "##description##",
+								type: 'svg',
+								title: '##name##',
+								svg: '##svg##',
+								description: '##description##',
 								fullwidth: true,
 							},
-							{ type: "heading", headingSize: "3", text: "##name##" },
+							{ type: 'heading', headingSize: '3', text: '##name##' },
 						]}
 						link="##url##"
 						appearance="shadow"
@@ -93,7 +93,10 @@ const Search = ({ headline, link, _parseYaml }) => {
 					</h2>
 					<div className="au-responsive-table component-table">
 						<table>
-							<caption className="au-responsive-table__caption" data-description>
+							<caption
+								className="au-responsive-table__caption"
+								data-description
+							>
 								###description###
 							</caption>
 							<thead>
