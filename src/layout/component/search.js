@@ -72,14 +72,14 @@ const Search = ({ headline, link, _parseYaml }) => {
 						rows={[
 							{
 								type: 'svg',
-								title: '##name##',
-								svg: '##svg##',
-								description: '##description##',
+								title: '###NAME###',
+								svg: '###SVG###',
+								description: '###DESCRIPTION###',
 								fullwidth: true,
 							},
-							{ type: 'heading', headingSize: '3', text: '##name##' },
+							{ type: 'heading', headingSize: '3', text: '###NAME###' },
 						]}
-						link="##url##"
+						link="###URL###"
 						appearance="shadow"
 					/>
 				</li>
@@ -97,7 +97,7 @@ const Search = ({ headline, link, _parseYaml }) => {
 								className="au-responsive-table__caption"
 								data-description
 							>
-								###description###
+								###DESCRIPTION###
 							</caption>
 							<thead>
 								<tr className="au-responsive-table__header">
@@ -113,7 +113,7 @@ const Search = ({ headline, link, _parseYaml }) => {
 			<template data-result-table-row>
 				<tr className="au-responsive-table__body">
 					<td scope="col">
-						<a href="##url##">##name##</a>
+						<a href="###URL###">###NAME###</a>
 					</td>
 				</tr>
 			</template>
@@ -122,7 +122,7 @@ const Search = ({ headline, link, _parseYaml }) => {
 				<section className="searchpage__section released">
 					<h2 className="searchpage__section__headline au-display-md">
 						Sorry, we couldn't find anything matching{' '}
-						<span data-search-term>###SEARCH TERM###</span>.
+						<span data-search-term>###SEARCH_TERM###</span>.
 					</h2>
 				</section>
 			</template>
