@@ -91,7 +91,7 @@
 		return [node];
 	}
 	function searchIndex(searchTerm) {
-		const el = document.querySelector('[data-search-ind]');
+		const el = document.querySelector('[data-search-index]');
 		if (el) {
 			try {
 				const INDEX = JSON.parse(el.textContent);

@@ -41,7 +41,7 @@ const Searchbox = ({ _relativeURL, _ID, _pages, _parseYaml }) => {
 			/>
 			<datalist id="search-suggestions">
 				{suggestions.map((value) => (
-					<option value={value} />
+					<option key={value} value={value} />
 				))}
 			</datalist>
 		</>
