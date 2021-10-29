@@ -1,44 +1,51 @@
 import AUsearchBox from '../_auds/layout/searchbox';
-import PropTypes from 'prop-types';
 import React from 'react';
 
+import GetData from './../helper/getData';
 
 /**
  * The Searchbox component
  */
-const Searchbox = ({ label, placeholder, _relativeURL, _ID, _pages }) => (
-	<AUsearchBox
-		id="s1"
-		label="Search for a component"
-		btnText="Search"
-		responsive
-		inputProps= {{
-			defaultValue: _pages[ _ID ].searchvalue && _pages[ _ID ].searchvalue,
-			placeholder: 'e.g. body',
-			name: 's'
-		}}
-		btnProps= {{
-			as: 'secondary',
-			type: 'submit'
-		}}
-		action={`${ _relativeURL( '/components/search/', _ID ) }/`}
-		method="get"
-	/>
-);
+const Searchbox = ({ _relativeURL, _ID, _pages, _parseYaml }) => {
+	const data = GetData({ yaml: _parseYaml, object: true });
+	const terms = new Set();
 
+	Object.values(data).forEach((m) => {
+		if (m.name) terms.add(m.name);
+		if (m.tags) m.tags.forEach((t) => terms.add(t));
+		if (m.metatags) m.metatags.forEach((t) => terms.add(t));
+	});
 
-Searchbox.propTypes = {
-	/**
-	 * label: Search
-	 */
-	label: PropTypes.string.isRequired,
+	const suggestions = [...terms].sort();
 
-	/**
-	 * placeholder: e.g. Body
-	 */
-	placeholder: PropTypes.string.isRequired,
+	return (
+		<>
+			<AUsearchBox
+				id="s1"
+				label="Search for a component"
+				btnText="Search"
+				responsive
+				inputProps={{
+					defaultValue: _pages[_ID].searchvalue && _pages[_ID].searchvalue,
+					placeholder: 'e.g. body',
+					name: 's',
+					list: 'search-suggestions',
+				}}
+				btnProps={{
+					as: 'secondary',
+					type: 'submit',
+				}}
+				action={`${_relativeURL('/components/search/', _ID)}/`}
+				data-search-control
+				method="get"
+			/>
+			<datalist id="search-suggestions">
+				{suggestions.map((value) => (
+					<option key={value} value={value} />
+				))}
+			</datalist>
+		</>
+	);
 };
-
-Searchbox.defaultProps = {};
 
 export default Searchbox;
