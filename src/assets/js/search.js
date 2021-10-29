@@ -7,6 +7,9 @@
 		const el = document.querySelector("[data-search-control] > input");
 		if (el) el.value = searchTerm;
 	}
+	function setSearchResults(nodes) {
+		document.querySelector("[data-search-results]").replaceChildren(...nodes);
+	}
 	function renderList(results, title) {
 		if (!results.length) return document.createElement("span");
 
@@ -57,7 +60,37 @@
 
 		return container;
 	}
-	function performSearch(searchTerm) {
+	function renderResults(results) {
+		const released = renderList(
+			results.filter((r) => r.state === "published"),
+			"Released"
+		);
+		const inProgress = renderTable(
+			results.filter((r) => r.state === "inprogress"),
+			"In Progress",
+			"A table of components that are in progress of development."
+		);
+		const suggestion = renderTable(
+			results.filter((r) => r.state === "suggestion"),
+			"Suggestion",
+			"A table of components that have been suggested, including their status."
+		);
+		return [released, inProgress, suggestion];
+	}
+	function renderNoResults(searchTerm) {
+		const node = document
+			.querySelector("template[data-no-results]")
+			.content.firstElementChild.cloneNode(true);
+		node.querySelector("[data-search-term]").textContent = `"${searchTerm}"`;
+		return [node];
+	}
+	function renderError() {
+		const node = document
+			.querySelector("template[data-error]")
+			.content.firstElementChild.cloneNode(true);
+		return [node];
+	}
+	function searchIndex(searchTerm) {
 		const el = document.querySelector("[data-search-index]");
 		if (el) {
 			try {
@@ -71,46 +104,30 @@
 						{ name: "description", weight: 0.1 },
 					],
 				});
-
-				const results = FuseSearch.search(searchTerm);
-
-				const released = renderList(
-					results.filter((r) => r.state === "published"),
-					"Released"
-				);
-				const inProgress = renderTable(
-					results.filter((r) => r.state === "inprogress"),
-					"In Progress",
-					"A table of components that are in progress of development."
-				);
-				const suggestion = renderTable(
-					results.filter((r) => r.state === "suggestion"),
-					"Suggestion",
-					"A table of components that have been suggested, including their status."
-				);
-
-				document
-					.querySelector("[data-search-results]")
-					.replaceChildren(released, inProgress, suggestion);
+				return FuseSearch.search(searchTerm);
 			} catch (error) {
 				console.error("Failed to load search index", error);
 			}
 		}
 	}
-
-	function applySearch(searchTerm) {
+	function runSearch(searchTerm) {
 		setTitle(searchTerm);
 		setControlValue(searchTerm);
-		performSearch(searchTerm);
-	}
 
+		const results = searchIndex(searchTerm);
+		setSearchResults(
+			!results
+				? renderError()
+				: results.length
+				? renderResults(results)
+				: renderNoResults(searchTerm)
+		);
+	}
 	function init() {
 		// Show result content
 		const params = new URLSearchParams(window.location.search);
-		if (params.has("s")) {
-			const searchTerm = params.get("s");
-			applySearch(searchTerm);
-		}
+		const searchTerm = params.get("s");
+		runSearch(searchTerm ? searchTerm : '');
 	}
 
 	init();

@@ -115,8 +115,25 @@ const Search = ({ headline, link, _parseYaml }) => {
 				</tr>
 			</template>
 
+			<template data-no-results>
+				<section className="searchpage__section released">
+					<h2 className="searchpage__section__headline au-display-md">
+						Sorry, we couldn't find anything matching{' '}
+						<span data-search-term>###SEARCH TERM###</span>.
+					</h2>
+				</section>
+			</template>
+
+			<template data-error>
+				<section className="searchpage__section released">
+					<h2 className="searchpage__section__headline au-display-md">
+						Sorry, there was a problem running your search.
+					</h2>
+				</section>
+			</template>
+
 			<script src="/assets/js/fuse.min.js" type="text/javascript"></script>
-			<script src="/assets/js/fe-search.js" type="text/javascript"></script>
+			<script src="/assets/js/search.js" type="text/javascript"></script>
 		</div>
 	);
 };
