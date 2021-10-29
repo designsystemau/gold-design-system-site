@@ -23,7 +23,8 @@
 		"watch:sass": "onchange 'src/sass/**/*.scss' -- npm run build:sass:dev && npm run build:autoprefix",
 		"watch:js": "onchange 'src/js/**/*.js' -- npm run build:js",
 		"watch:site": "cuttlebelle -w -n",
-		"watch": "npm run build && npm run watch:sass | npm run watch:js | npm run watch:site"
+		"watch": "npm run build && npm run watch:sass | npm run watch:js | npm run watch:site",
+		"clean": "git clean -xdf"
 	},
 	"repository": {
 		"type": "git",
@@ -72,7 +73,6 @@
 		"concat-cli": "^4.0.0",
 		"concat-files-cli": "^0.1.6",
 		"cuttlebelle": "^1.0.0-alpha.75",
-		"express": "^4.17.1",
 		"mkdirp": "^0.5.1",
 		"node-fetch": "^2.6.1",
 		"node-sass": "^4.14.1",
