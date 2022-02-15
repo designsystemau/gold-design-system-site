@@ -7,7 +7,7 @@ code:
       <!--
         Light:      <div class="au-page-alerts au-page-alerts--success">
         Light Alt:  <div class="au-page-alerts au-page-alerts--success au-page-alerts--alt">
-        Dark:       <div class="au-body au-body--dark au-page-alerts au-page-alerts--success au-page-alerts--dark >
+        Dark:       <div class="au-body au-body--dark au-page-alerts au-page-alerts--success au-page-alerts--dark">
         Dark Alt:   <div class="au-body au-body--dark au-body--alt au-page-alerts au-page-alerts--success au-page-alerts--dark au-page-alerts--alt">
       -->
 
