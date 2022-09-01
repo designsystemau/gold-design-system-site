@@ -24,7 +24,7 @@ AddEvent( document.querySelector( '.js-tabbing-switch' ), 'click', function( eve
 /**
  * Event listener for when the user scrolls or uses the tab key to stop Tab() function
  */
- AddEvent( document.querySelector( '.tabbing-frame' ), 'keydown', function( event, $this ) {
+AddEvent( document.querySelector( '.tabbing-frame' ), 'keydown', function( event, $this ) {
 	StopTab( interval, document.querySelector( '.js-tabbing-switch' ) )
 });
 
