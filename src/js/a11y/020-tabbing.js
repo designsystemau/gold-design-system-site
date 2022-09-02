@@ -25,7 +25,9 @@ AddEvent( document.querySelector( '.js-tabbing-switch' ), 'click', function( eve
  * Event listener for when the user scrolls or uses the tab key to stop Tab() function
  */
 AddEvent( document.querySelector( '.tabbing-frame' ), 'keydown', function( event, $this ) {
-	StopTab( interval, document.querySelector( '.js-tabbing-switch' ) )
+	if( HasClass(document.querySelector( '.js-tabbing-switch' ), 'is-on' ) ) {
+		StopTab( interval, document.querySelector( '.js-tabbing-switch' ) );
+	}
 });
 
 
@@ -39,11 +41,12 @@ function Tab() {
 	return setInterval( function() {
 		if( loop >= items.length ) {
 			StopTab( interval, document.querySelector( '.js-tabbing-switch' ) );
-			document.querySelector( '.js-tabbing-switch' ).focus()
-		} else {
-			items[ loop ].focus();
-			loop ++;
 		}
+		else {
+			items[ loop ].focus();
+		}
+
+		loop ++;
 	}, 500 );
 }
 
@@ -55,4 +58,5 @@ function StopTab( interval, $this ) {
 	RemoveClass( $this, 'is-on' );
 	$this.innerText = 'Show tabbing';
 	clearInterval( interval );
+	$this.focus();
 }
